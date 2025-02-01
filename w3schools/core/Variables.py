@@ -66,3 +66,11 @@ x, y, z = fruits
 print(x)
 print(y)
 print(z)
+
+# In the print() function, you output multiple variables, separated by a comma:
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+# You can also use the + operator to output multiple variables:
+print(x + y + z)
