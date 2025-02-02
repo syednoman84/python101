@@ -23,3 +23,6 @@
   - You can run the list command to see other content in your drive like linux style using following command:
     - ```!ls drive/MyDrive```
 
+### How to install pandas and numpy
+  - ```pip install pandas```
+  - ```pip install numpy```
