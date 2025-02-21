@@ -26,3 +26,13 @@
 ### How to install pandas and numpy
   - ```pip install pandas```
   - ```pip install numpy```
+
+### How to upload a file from local machine
+
+- You can upload a file from local machine to your colab notebook file storage using upload option in there.
+- You can then simply refer to it in your code like below:
+
+```
+file_path = '/content/foodhub_order.csv'
+df = pd.read_csv(file_path)
+```
