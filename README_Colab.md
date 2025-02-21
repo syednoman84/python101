@@ -36,3 +36,14 @@
 file_path = '/content/foodhub_order.csv'
 df = pd.read_csv(file_path)
 ```
+
+## How to convert ipynb to html
+1. Download your notebook as .ipynb file to your local machine
+2. Open the Google Colab with any existing notebook or empty notebook
+3. Upload the downloaded .ipynb file to the online File storage of your Google Colab notebook
+4. Run the below statements in your code element in your Google Colab notebook:
+
+    ```
+    %%shell
+    jupyter nbconvert --to html /content/YOUR_NOTE_BOOK_NAME.ipynb
+    ```
