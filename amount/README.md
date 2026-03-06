@@ -1,42 +1,42 @@
-# PCM Tenants Configuration Setup
+# 🛠️ PCM Tenants Configuration Setup
 
 Automated setup scripts for creating and validating PCM tenant configurations with multiple product types.
 
-## Overview
+## 📋 Overview
 
 This toolkit automates the process of setting up tenant configurations by cloning repositories, creating product directories, copying template variables, and generating configuration files. It includes validation scripts to verify the setup was completed correctly.
 
-## Files
+## 📂 Files
 
-### 1. PCM_Tenants_Configs_Setup.py
-**Main automation script** that performs the complete tenant setup.
+### 1️⃣ PCM_Tenants_Configs_Setup.py
+**🚀 Main automation script** that performs the complete tenant setup.
 
 **What it does:**
-- Clones destination tenant config repository
-- Creates a new feature branch
-- Clones static files repository and copies baseline files (app, env, .gitignore)
-- Replaces tenant placeholders in environment files
-- Clones template variables repository at specified tag
-- Creates product directories with UUID-based names
-- Copies appropriate template_vars for each product type
-- Generates definition.json for each product
-- Commits all changes and pushes to remote
-- Creates a Pull Request
-- Prints summary with full definition.json for each product
+- 📥 Clones destination tenant config repository
+- 🌱 Creates a new feature branch
+- 📄 Clones static files repository and copies baseline files (app, env, .gitignore)
+- 🔄 Replaces tenant placeholders in environment files
+- 🏷️ Clones template variables repository at specified tag
+- 📁 Creates product directories with UUID-based names
+- 📊 Copies appropriate template_vars for each product type
+- 📝 Generates definition.json for each product
+- ✅ Commits all changes and pushes to remote
+- 📤 Creates a Pull Request
+- 📊 Prints summary with full definition.json for each product
 
 **Usage:**
 ```bash
 python PCM_Tenants_Configs_Setup.py
 ```
 
-### 2. print_product_summary.py
-**Validation script** to view all created products and their definitions.
+### 2️⃣ print_product_summary.py
+**✅ Validation script** to view all created products and their definitions.
 
 **What it does:**
-- Scans the product directory for all UUID-based product folders
-- Reads definition.json from each product directory
-- Displays formatted summary with complete definition.json content
-- Sorts products by type and name
+- 🔍 Scans the product directory for all UUID-based product folders
+- 📝 Reads definition.json from each product directory
+- 📊 Displays formatted summary with complete definition.json content
+- 🔢 Sorts products by type and name
 
 **Usage:**
 ```bash
@@ -44,19 +44,19 @@ python print_product_summary.py
 ```
 
 **When to use:**
-- After running the main setup script
-- To verify product definitions without re-running setup
-- To review what products were created
-- Can be run multiple times
+- ✅ After running the main setup script
+- 🔍 To verify product definitions without re-running setup
+- 👀 To review what products were created
+- 🔁 Can be run multiple times
 
-### 3. validate_template_vars.py
-**Validation script** to verify template_vars were copied correctly.
+### 3️⃣ validate_template_vars.py
+**✅ Validation script** to verify template_vars were copied correctly.
 
 **What it does:**
-- Compares each product's template_vars directory with source default-variables
-- Groups results by product type
-- Checks for missing files, extra files, and JSON content differences
-- Reports success/failure for each product
+- 🔍 Compares each product's template_vars directory with source default-variables
+- 📂 Groups results by product type
+- ✅ Checks for missing files, extra files, and JSON content differences
+- 📊 Reports success/failure for each product
 
 **Usage:**
 ```bash
@@ -64,19 +64,19 @@ python validate_template_vars.py
 ```
 
 **When to use:**
-- After running the main setup script
-- To verify the copy process was successful
-- To ensure correct template_vars were used for each product type
-- Can be run multiple times
+- ✅ After running the main setup script
+- 🔍 To verify the copy process was successful
+- ✅ To ensure correct template_vars were used for each product type
+- 🔁 Can be run multiple times
 
-### 4. validate_env_files.py
-**Validation script** to verify environment file placeholder replacements.
+### 4️⃣ validate_env_files.py
+**✅ Validation script** to verify environment file placeholder replacements.
 
 **What it does:**
-- Validates serenityprdpr.json and serenityprod1.json
-- Checks for unreplaced placeholders (<tenant-domain>, <tenant-id>)
-- Verifies exact tenant values are present (no typos, extra characters, or spaces)
-- Detects common issues like:
+- 🔍 Validates serenityprdpr.json and serenityprod1.json
+- 🔎 Checks for unreplaced placeholders (<tenant-domain>, <tenant-id>)
+- ✅ Verifies exact tenant values are present (no typos, extra characters, or spaces)
+- ⚠️ Detects common issues like:
   - "vnb1" instead of "vnb"
   - "vnb " (trailing space)
   - "vnb /" (space before slash)
@@ -88,17 +88,17 @@ python validate_env_files.py
 ```
 
 **When to use:**
-- After running the main setup script
-- To verify tenant placeholders were replaced correctly
-- To catch typos or formatting issues in env files
-- Can be run multiple times
+- ✅ After running the main setup script
+- 🔍 To verify tenant placeholders were replaced correctly
+- ⚠️ To catch typos or formatting issues in env files
+- 🔁 Can be run multiple times
 
-### 5. params.txt
-**Configuration file** containing all parameters for the setup process.
+### 5️⃣ params.txt
+**⚙️ Configuration file** containing all parameters for the setup process.
 
-## Configuration (params.txt)
+## ⚙️ Configuration (params.txt)
 
-### Required Inputs (Change for each tenant)
+### 📝 Required Inputs (Change for each tenant)
 
 ```ini
 # Destination tenant config repository
@@ -121,7 +121,7 @@ template_vars_tag=12.4.1
 pr_title=SCS-2991 Initial Setup
 ```
 
-### Machine-Specific Settings (Usually don't change)
+### 💻 Machine-Specific Settings (Usually don't change)
 
 ```ini
 # Local working directory for cloning and processing
@@ -140,7 +140,7 @@ template_vars_github_url=https://git.shared.linearft.tools/odx-platform-configs/
 cleanup_after_run=false
 ```
 
-### Product Type Mappings
+### 🗺️ Product Type Mappings
 
 The following mappings define how each product type is configured:
 
@@ -184,7 +184,7 @@ SMB_LOC → Business Line of Credit
 SMB_TL → Business Term Loan
 ```
 
-## Supported Product Types
+## 🏷️ Supported Product Types
 
 - **Consumer_CC** - Consumer Credit Card Self Service
 - **Consumer_DAO** - Consumer Deposit Account Opening
@@ -193,9 +193,9 @@ SMB_TL → Business Term Loan
 - **SMB_LOC** - Small Business Line of Credit
 - **SMB_TL** - Small Business Term Loan
 
-## Workflow
+## 🔄 Workflow
 
-### Step 1: Configure params.txt
+### 📝 Step 1: Configure params.txt
 Edit the required inputs section:
 - Set destination repository URL
 - Set tenant-domain and tenant-id
@@ -203,23 +203,23 @@ Edit the required inputs section:
 - Set template_vars_tag (version to use)
 - Set PR title
 
-### Step 2: Run Main Setup
+### 🚀 Step 2: Run Main Setup
 ```bash
 python PCM_Tenants_Configs_Setup.py
 ```
 
 This will:
-1. Clone all required repositories
-2. Create branch in destination repo
-3. Copy baseline files
-4. Replace tenant placeholders in env files
-5. Create product directories with UUIDs
-6. Copy template_vars for each product
-7. Generate definition.json for each product
-8. Commit, push, and create PR
-9. Print summary with all definition.json files
+1. 📥 Clone all required repositories
+2. 🌱 Create branch in destination repo
+3. 📄 Copy baseline files
+4. 🔄 Replace tenant placeholders in env files
+5. 📁 Create product directories with UUIDs
+6. 📊 Copy template_vars for each product
+7. 📝 Generate definition.json for each product
+8. ✅ Commit, push, and create PR
+9. 📊 Print summary with all definition.json files
 
-### Step 3: Validate Setup (Optional but Recommended)
+### ✅ Step 3: Validate Setup (Optional but Recommended)
 
 **Validate product definitions:**
 ```bash
@@ -236,7 +236,7 @@ python validate_template_vars.py
 python validate_env_files.py
 ```
 
-## Product Directory Structure
+## 📁 Product Directory Structure
 
 After execution, the destination repository will have this structure:
 
@@ -257,7 +257,7 @@ destination/
 └── .gitignore
 ```
 
-## definition.json Structure
+## 📝 definition.json Structure
 
 Each product has a definition.json file with the following structure:
 
@@ -272,7 +272,7 @@ Each product has a definition.json file with the following structure:
 }
 ```
 
-## Adding New Products
+## ➕ Adding New Products
 
 To add new products, edit params.txt:
 
@@ -284,7 +284,7 @@ Consumer_DAO_Product_10=New Checking Account
 Consumer_CC_Product_1=Rewards Card
 ```
 
-## Adding New Product Types
+## 🆕 Adding New Product Types
 
 To support a new product type:
 
@@ -304,28 +304,28 @@ PRODUCT_TYPE_NAME_MAP=...,NewType:New Type Display Name
 NewType_Product_1=First New Type Product
 ```
 
-## Troubleshooting
+## 🔧 Troubleshooting
 
-### Script fails with "mapping validation failed"
+### ❌ Script fails with "mapping validation failed"
 - Ensure all product types used have entries in all four mapping parameters
 - Check for typos in product type prefixes
 
-### Validation scripts show "directory not found"
+### 📂 Validation scripts show "directory not found"
 - Ensure main setup script completed successfully
 - Check workingDirectory path in params.txt
 - Verify cleanup_after_run is set to false
 
-### Env validation fails
+### ⚠️ Env validation fails
 - Check for typos in tenant-domain and tenant-id values
 - Look for extra spaces or characters
 - Verify placeholders were replaced correctly
 
-### Template vars validation fails
+### 📄 Template vars validation fails
 - Check that template_vars_tag exists in the repository
 - Verify TEMPLATE_PATHS point to valid directories
 - Ensure source repository was cloned successfully
 
-## Prerequisites
+## 🛠️ Prerequisites
 
 - Python 3.6+
 - Git CLI
@@ -333,10 +333,10 @@ NewType_Product_1=First New Type Product
 - Access to the required Git repositories
 - Git credentials configured
 
-## Notes
+## 📌 Notes
 
-- All scripts read from the same params.txt file
-- Validation scripts can be run multiple times without side effects
-- Set cleanup_after_run=true to automatically delete workdir after execution
-- Product UUIDs are randomly generated for each product
-- Products are processed in sorted order (by type, then index number)
+- 📄 All scripts read from the same params.txt file
+- 🔁 Validation scripts can be run multiple times without side effects
+- 🧹 Set cleanup_after_run=true to automatically delete workdir after execution
+- 🆔 Product UUIDs are randomly generated for each product
+- 🔢 Products are processed in sorted order (by type, then index number)
