@@ -12,11 +12,6 @@ print(data_customer.groupby(['sales'])['customer'].mean())
 # print(data_customer['customer'].value_counts())
 # print(data_customer(['category'])['customer'].value_counts())
 
-
-
-
-
-
 # Explore the DataFrame
 # print(df.head())  # Display the first few rows
 # print(df.info())  # Summary of the DataFrame
@@ -27,3 +22,4 @@ print(data_customer.groupby(['sales'])['customer'].mean())
 #
 # # Write DataFrame to a new CSV file
 # df.to_csv("output.csv", index=False)
+

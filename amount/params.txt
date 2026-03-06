@@ -1,0 +1,72 @@
+#################################################
+# INPUTS
+#################################################
+# Github URL for the tenant config repo
+destination_repo_github_url=https://git.shared.linearft.tools/odx-platform-configs/ODXP-DPLOY--odx-config-vnb-deploy.git
+
+# Placeholders values for env files
+tenant-domain=vnb
+tenant-id=vnb
+
+# List of Products to be created
+Consumer_DAO_Product_1=Cardinal Checking
+Consumer_DAO_Product_2=Commonwealth Account
+Consumer_DAO_Product_3=The Virginian
+Consumer_DAO_Product_4=Personal Savings
+Consumer_DAO_Product_5=Dogwood Savings
+Consumer_DAO_Product_6=Money Market Account
+Consumer_DAO_Product_7=Premium Money Market Account
+Consumer_DAO_Product_8=Phoenix Account
+Consumer_DAO_Product_9=Certificate of Deposit
+SMB_DAO_Product_1=Business Economy Checking
+SMB_DAO_Product_2=Full-Analysis Business Checking
+SMB_DAO_Product_3=Business Interest Checking
+SMB_DAO_Product_4=Business Money Market Account
+SMB_DAO_Product_5=Business Premium Money Market Account
+SMB_DAO_Product_6=Business Phoenix Account
+SMB_DAO_Product_7=Business Certificate of Deposit
+#Consumer_CC_Product_1=Rewards
+#Consumer_CC_Product_2=Lower Rate
+#Consumer_CC_Product_3=Build Credit
+#SMB_DAO_Product_1=Low Rate SMB DAO
+#SMB_CC_Product_1=Business Credit Card
+#SMB_LOC_Product_1=Platinum SMB LOC
+#SMB_DAO_Product_2=Premium SMB DAO
+#SMB_CC_Product_2=Business Rewards SMB CC
+
+# Tag name for template_vars repo (optional, uses default branch if not specified)
+template_vars_tag=12.4.1
+
+# Set your PR title or it will default to Automated setup script changes
+pr_title=SCS-2991 Initial Setup
+
+#################################################
+# THINGS TO NOT CHANGE FOR EVERY TENANT SETUP UNLESS YOU WANT TO UPDATE PATHS AS PER YOUR MACHINE
+#################################################
+
+# Working directory for everything
+workingDirectory=/Users/NomanAhmed/Documents/Noman/pcm-tenants-setup/workdir
+
+# Configures the branch name that you want to create in the tenant config repo
+branchName=feature-new-products
+
+# Github URL for the baseline files for app and env files
+static_files_repo_github_url=https://git.shared.linearft.tools/odx-platform-configs/ODXP-DPLOY--odx-config-slt-deploy.git
+
+# Github URL for the Platform Configs for template_vars
+template_vars_github_url=https://git.shared.linearft.tools/odx-platform-configs/ODXP-DPLOY--odx-config-platform-deploy.git
+
+# template_vars directory path for each Product Type
+TEMPLATE_PATHS=Consumer_CC:product-type/credit-card-self-service/default-variables,Consumer_DAO:product-type/consumer-dao/default-variables,SMB_DAO:product-type/smb-dao/default-variables,SMB_CC:product-type/smb-credit-card/default-variables,SMB_LOC:product-type/smb-loc/default-variables,SMB_TL:product-type/smb-tl/default-variables
+
+# Product Type Mapping for definition.json
+PRODUCT_TYPE_MAP=Consumer_CC:CREDIT_CARD_SELF_SERVICE,Consumer_DAO:CONSUMER_DAO,SMB_DAO:SMB_DAO,SMB_CC:SMB_CREDIT_CARD,SMB_LOC:SMB_LOC,SMB_TL:SMB_TL
+
+# Policy Name Mapping for definition.json
+PRODUCT_POLICY_MAP=Consumer_CC:catalyst-cc-policy-poc,Consumer_DAO:amt-consumer-dao-policy,SMB_DAO:amt-smb-dao-policy,SMB_CC:amt-smb-credit-card-policy,SMB_LOC:amt-smb-loc-policy,SMB_TL:amt-smb-tl-policy
+
+# Product Type Name Mapping for definition.json
+PRODUCT_TYPE_NAME_MAP=Consumer_CC:Credit Card Self Service,Consumer_DAO:Consumer Deposit Account,SMB_DAO:Deposit Account,SMB_CC:SMB Credit Card,SMB_LOC:Business Line of Credit,SMB_TL:Business Term Loan
+
+# Deletes everything after execution if sets to true
+cleanup_after_run=false

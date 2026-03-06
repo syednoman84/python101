@@ -1,0 +1,3571 @@
+{
+  "ODXP-DPLOY--odx-config-qa2-deploy": [
+    {
+      "productId": "95d05985-ce45-4d82-aa6b-12bb49356a53",
+      "productName": "SMB DAO - Automated Testing",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "95d05985-ce45-4d82-aa6b-12bb49356a54",
+      "productName": "SMB CC - 4-26 Reg",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "44d313d9-1761-4758-a4e2-fcbdf90a3027",
+      "productName": "Consumer UIL - Automated Testing",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f13469c3-03fd-4d8e-9b3a-53396090f9ad",
+      "productName": "SMB Line of Credit 4",
+      "productType": "SMB_LOC",
+      "policy": "amt-smb-loc-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "fe3d078b-cda8-4cfc-a972-d67b2e8ef7e8",
+      "productName": "Consumer CC - 4-26 Reg",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "faa398c4-3215-44b3-9368-98e70bfa24dc",
+      "productName": "SMB CC - 4-25",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "95d05985-ce45-4d82-aa6b-12bb49356a52",
+      "productName": "SMB CC - Automated Testing",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1bd53618-7bd3-4367-a657-43be3b3d1f10",
+      "productName": "SMB DAO Multi Account",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "436579aa-0990-4583-9948-6bdb344a1c05",
+      "productName": "Consumer DAO - Policy Testing Team",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "55fcd590-7517-4e9f-96f2-0fafc462c0c1",
+      "productName": "Consumer CC - 4-25 QA",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "66040b2b-70ba-4647-9604-db32a1ed7ba7",
+      "productName": "Velera SMB CC Demo - Welles",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "f061b79e-d094-4c23-87d1-01861b5710fc",
+      "productName": "SMB Term Loan Secured 1",
+      "productType": "SMB_TL",
+      "policy": "amt-smb-tl-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1bd53618-7bd3-4367-a657-43be3b3d1f11",
+      "productName": "Consumer DAO Multi Account",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "3aa12cbe-b75a-461f-ab8b-6648be1fcc44",
+      "productName": "SMB Term Loan-Second'02 ",
+      "productType": "SMB_TL",
+      "policy": "amt-smb-tl-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "588c0349-9b58-4db3-a56a-a4df8a7465e1",
+      "productName": "Catalyst Consumer Unsecured Installment Loan - Ravi QA Team",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "000000a2-a965-42e5-8810-44e62bef5147",
+      "productName": "Schnitzel Ramp",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "588c0349-9b58-4db3-a56a-a4df8a7465e0",
+      "productName": "Catalyst Consumer Unsecured Installment Loan - Megan QA Team",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "412b228c-ac0b-4dbb-9fda-e43333e88ecb",
+      "productName": " SMB DAO-4-26 Reg",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "e1d7f9f4-59a4-4564-981c-630285c038ba",
+      "productName": "Dev Testing CC Product",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1bd53618-7bd3-4367-a657-000000000000",
+      "productName": "SMB DAO Multi Account - Cactus",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "e83a0130-60d6-4661-90c3-b3be9d6dbaa9",
+      "productName": "Documentation Demo - DO NOT USE",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1bd53618-7bd3-4367-a657-000000000001",
+      "productName": "Consumer DAO Multi Account - Shark",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "51d5ce2f-a62f-4ff6-bde6-dc7366956a2a",
+      "productName": "Liz test automation product -1",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "261a59b5-77f9-4357-804b-7b16912ac3a4",
+      "productName": "Dev Training Product",
+      "productType": "DEV_LEARNING",
+      "policy": "amt-dev-learning-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "4ebee627-9435-4e05-aa49-0d8bfde87b3b",
+      "productName": "Rewards Checking",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "b7e41dc0-2c2d-4c29-82e9-3d3f99708588",
+      "productName": "SMB CC - Pricing Testing MDD 422",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "28f54fe6-0d10-4efe-82af-6469cc81c0a0",
+      "productName": "SMB Account Opening Demo",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "a991ed13-3e5e-43b0-8cba-5cb6e90140fd",
+      "productName": "SMB DAO - Policy Testing Team",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "e97ea541-9245-4702-aee6-4e3a62d326d3",
+      "productName": "SMB Line of Credit 3 Test 420",
+      "productType": "SMB_LOC",
+      "policy": "amt-smb-loc-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "7c164a6c-a1fa-4df8-80f3-95622e4c2b17",
+      "productName": "SMB Line1 Test Execution",
+      "productType": "SMB_LOC",
+      "policy": "amt-smb-loc-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "95d05985-ce45-4d82-aa6b-12bb49356a50",
+      "productName": "Consumer CC - Automated Testing",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "2e4d373b-936e-44f1-b9c1-769a44947525",
+      "productName": "Liz automated test product- SMB CC",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "13bc55cb-cb71-486d-bc5a-0b7f13757183",
+      "productName": "Consumer CC - - Policy Testing Team",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "95d05985-ce45-4d82-aa6b-12bb49356a51",
+      "productName": "Consumer DAO - Automated Testing",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "a2ad09ba-ef48-427f-852f-470760ef21e1",
+      "productName": "SMB CC - DONT USE",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "436579aa-0990-4583-9948-6bdb344a1c06",
+      "productName": "Consumer DAO - 4-26 Regression",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "3919a3e4-c15c-41d5-a963-1e7970443689",
+      "productName": "Consumer UIL - Jaya Automated Testing",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "2c6ef961-7ead-4501-88e7-531de95994eb",
+      "productName": "Online Banking Enrollment",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "5279d154-a489-4c46-84b0-731d8b23155b",
+      "productName": "CLONE of dev/e105 -- Dev Bank UIL - DEFAULTS",
+      "productType": "UIL",
+      "policy": "catalyst-bank-uil-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "391a3664-00b5-4a09-84e3-6836f0d79400",
+      "productName": "Catalyst Consumer Unsecured Installment Loan - Ravi QA Team 4 Test",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "000000a1-a965-42e5-8810-44e62bef5147",
+      "productName": "Feature enabled - Stone Veill - change1",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "436579aa-0990-4583-9948-6bdb344a1c07",
+      "productName": "Consumer DAO - 4-26 Reg",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "6857b8da-14e6-458d-a876-c3abccd298c7",
+      "productName": "SMB CC 4-22 Testing",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "588c0349-9b58-4db3-a56a-a4df8a7465e5",
+      "productName": "Catalyst Consumer Unsecured Installment Loan - Ravi QA Team 3",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "588c0349-9b58-4db3-a56a-a4df8a7465e2",
+      "productName": "Catalyst Consumer Unsecured Installment Loan - Manav QA Team Test",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "588c0349-9b58-4db3-a56a-a4df8a7465e3",
+      "productName": "Catalyst Consumer Unsecured Installment Loan - Policy Testing Team - Peter",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "588c0349-9b58-4db3-a56a-a4df8a7465e4",
+      "productName": "Matt UIL Testing",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "981c631a-4ec9-4ae6-ac93-600a632e79c2",
+      "productName": "SMB Term Loan Secured 2",
+      "productType": "SMB_TL",
+      "policy": "amt-smb-tl-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d5e3780d-c5b7-457b-98e9-0fb33c6f6266",
+      "productName": "Catalyst Consumer Unsecured Installment Loan - Ravi QA Team 5 Test",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "058f3d82-bf9b-49c5-b65b-7167b8bb8cbd",
+      "productName": "SS CC 4-25 Reg",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "0e24a5b5-1393-4369-8418-7dc7c004f400",
+      "productName": "Liz test automation product CUIL",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "fe297b7d-2d49-42f4-9dd6-de72fa6b602c",
+      "productName": "SMB DAO 4-25 - Pre-fill",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "e399395c-3ac0-4f50-809a-c5295b9d0e37",
+      "productName": "Liz automation test product - Consumer Card",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "27a383b6-7d16-462c-84bf-1644f19dde03",
+      "productName": "SMB TL1 Testing",
+      "productType": "SMB_TL",
+      "policy": "amt-smb-tl-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "36c51e69-8065-4e3c-a294-d4ee1f5bde5a",
+      "productName": "Liz automated test product - Consumer DAO",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "a8b3fe9b-397f-4e00-a20a-1c9151689661",
+      "productName": "SMB Line of Credit 22",
+      "productType": "SMB_LOC",
+      "policy": "amt-smb-loc-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-fng-deploy": [
+    {
+      "productId": "10902644-e0c1-4987-aa2c-434299d2f4e2",
+      "productName": "Business Money Market",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f62920d7-8ebf-4950-8fbf-51b308d065f4",
+      "productName": "Veterans Guardian Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f62920d7-8ebf-4950-8fbf-51b308d065f3",
+      "productName": "Hometown Guardian Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f62920d7-8ebf-4950-8fbf-51b308d065f2",
+      "productName": "Hometown Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f62920d7-8ebf-4950-8fbf-51b308d065f5",
+      "productName": "First Fund Money Market",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "10902644-e0c1-4987-aa2c-434299d2f4e0",
+      "productName": "Basic Business Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "10902644-e0c1-4987-aa2c-434299d2f4e1",
+      "productName": "Small Business Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f62920d7-8ebf-4950-8fbf-51b308d065f9",
+      "productName": "Certificate of Deposit",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f62920d7-8ebf-4950-8fbf-51b308d065f0",
+      "productName": "First Free Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f62920d7-8ebf-4950-8fbf-51b308d065f7",
+      "productName": "Sapling Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f62920d7-8ebf-4950-8fbf-51b308d065f6",
+      "productName": "Personal Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f62920d7-8ebf-4950-8fbf-51b308d065f1",
+      "productName": "First Guardian Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f62920d7-8ebf-4950-8fbf-51b308d065f8",
+      "productName": "Christmas Club Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-sol-deploy": [
+    {
+      "productId": "938425e8-f690-4b5c-8dac-ca85b1f388f7",
+      "productName": "Consumer Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "938425e8-f690-4b5c-8dac-ca85b1f388f9",
+      "productName": "Prestige Business Checking ",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "938425e8-f690-4b5c-8dac-ca85b1f388f8",
+      "productName": "Consumer CD",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "938425e8-f690-4b5c-8dac-ca85b1f388f1",
+      "productName": "Business Checking Non-Interest Bearing",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "938425e8-f690-4b5c-8dac-ca85b1f388f6",
+      "productName": "Consumer Money Market",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "938425e8-f690-4b5c-8dac-ca85b1f388f3",
+      "productName": "Business Savings",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "938425e8-f690-4b5c-8dac-ca85b1f388f4",
+      "productName": "Business CD",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "938425e8-f690-4b5c-8dac-ca85b1f388f5",
+      "productName": "Consumer Checking Non-Interest Bearing",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "938425e8-f690-4b5c-8dac-ca85b1f388f2",
+      "productName": "Business Balance Builder Money Market",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-fib-deploy": [
+    {
+      "productId": "334dccbb-9de2-428c-be30-b2d51ce17a57",
+      "productName": "DO NOT USE - FirstRewards World Mastercard",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "dda6d06b-9509-4688-bd44-ab7c7f3c0355",
+      "productName": "DO NOT USE - World Elite Mastercard",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "a6ce62a2-127e-416a-b735-63ededa487c9",
+      "productName": "FirstRewards World Elite Mastercard for Business",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "2565e873-03d0-4f76-acad-de56cc9b2105",
+      "productName": "DO NOT USE - Platinum Mastercard",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "0608f92b-dbd1-4278-aa11-9f097febfc90",
+      "productName": "Mastercard Small Business Card",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "becb5c7d-c98b-49a7-90b2-16ad40e39b2c",
+      "productName": "Secured Mastercard",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-nel-deploy": [
+    {
+      "productId": "b24e0f72-d943-4218-aa59-4c72d631721c",
+      "productName": "serenity-uil",
+      "productType": "UIL",
+      "policy": "catalyst-bank-uil-policy",
+      "selfServiceManaged": null
+    }
+  ],
+  "ODXP-DPLOY--odx-config-cat-deploy": [
+    {
+      "productId": "0fed4b15-5c38-4be7-ba58-05ced36712ef",
+      "productName": "Catalyst Business Line of Credit",
+      "productType": "SMB_LOC",
+      "policy": "amt-smb-loc-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "e57a67de-6bcb-4b6a-9212-cc0a2954784f",
+      "productName": "Serenity Credit Card",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "2c3047fd-e51b-4b78-be56-cd9f7e506def",
+      "productName": "Dev Training Product",
+      "productType": "DEV_LEARNING",
+      "policy": "amt-dev-learning-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "6f742ef5-b4bd-4ffa-96c1-89010c00f263",
+      "productName": "Catalyst SMB Credit Card",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "6467d717-10cc-441d-b342-135eb1ae0756",
+      "productName": "Consumer DAO Multi Account",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "fba54a02-d7a2-420c-9d59-b3bf062717cf",
+      "productName": "Catalyst Consumer Unsecured Installment Loan",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "e8d74dfc-5939-4078-bb24-0b254bd35170",
+      "productName": "Catalyst Secured Business Term Loan",
+      "productType": "SMB_TL",
+      "policy": "amt-smb-tl-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "af683952-8b06-4433-836c-e910e392ca72",
+      "productName": "Serenity UIL Joint",
+      "productType": "UIL_JOINT",
+      "policy": "catalyst-bank-uil-policy-joint",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "f32384ff-2c41-4a23-9cc2-1f192bfb4db2",
+      "productName": "Catalyst Business Term Loan",
+      "productType": "SMB_TL",
+      "policy": "amt-smb-tl-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "22e069ab-36fa-41b4-91ca-cb576786367a",
+      "productName": "SMB DAO Multi Account",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "fedf5400-4596-4473-8a82-ca39276daec4",
+      "productName": "Catalyst Credit Card Self Service",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "eac51bb7-6f6e-4843-930b-c49f5f61f4e4",
+      "productName": "Catalyst Secured Business Line of Credit",
+      "productType": "SMB_LOC",
+      "policy": "amt-smb-loc-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "01955c9a-f13f-7b91-9c4a-aeee4505a4c2",
+      "productName": "Generic consumer product",
+      "productType": "GENERIC_CONSUMER_PRODUCT",
+      "policy": "amt-generic-product-poc-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "b4779918-5904-4eb3-a34c-e87c9c49c164",
+      "productName": "Catalyst Deposit Account",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "240ac826-0b75-4bf4-8925-87856ae8586c",
+      "productName": "Catalyst Consumer Deposit Account",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "9822b1fa-fa1f-44c4-aaed-5f5b17d42e63",
+      "productName": "Consumer Income Ver",
+      "productType": "CONSUMER_INCOME_VER",
+      "policy": "consumer-income-ver-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "65fd2d1a-865d-47f9-b744-c03e11309742",
+      "productName": "Consumer Fraud Score",
+      "productType": "CONSUMER_FRAUD_SCORE",
+      "policy": "fraud-score-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "f0047279-0cb3-4040-a191-ff56d6a4ee24",
+      "productName": "Catalyst Serenity UIL",
+      "productType": "UIL",
+      "policy": "catalyst-bank-uil-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "b2fd4ed3-fa57-4834-a01f-59d49290fd0a",
+      "productName": "Serenity Fraud",
+      "productType": "COGNITIVE",
+      "policy": "catalyst-bank-uil-fraud",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "2b64f775-41a1-4acb-9b3f-70241ff8a62f",
+      "productName": "Consumer Identity Verification",
+      "productType": "CONSUMER_IDENTITY_VER",
+      "policy": "amt-identity-ver-standalone-policy",
+      "selfServiceManaged": false
+    }
+  ],
+  "ODXP-DPLOY--odx-config-mlb-deploy": [
+    {
+      "productId": "509303ba-a955-4ecb-b0fb-edf526ed4851",
+      "productName": "Essential Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "509303ba-a955-4ecb-b0fb-edf526ed4856",
+      "productName": "Certificates of Deposit",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "509303ba-a955-4ecb-b0fb-edf526ed4853",
+      "productName": "Prime Time Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "509303ba-a955-4ecb-b0fb-edf526ed4854",
+      "productName": "Personal Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "509303ba-a955-4ecb-b0fb-edf526ed4855",
+      "productName": "Money Market Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "509303ba-a955-4ecb-b0fb-edf526ed4852",
+      "productName": "Superior Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-grt-deploy": [
+    {
+      "productId": "2127d445-e13a-4dcf-a8b7-4cfca369e754",
+      "productName": "Consumer Fraud Score",
+      "productType": "CONSUMER_FRAUD_SCORE",
+      "policy": "fraud-score-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "dcbbd1e4-9663-4178-83ea-d81643034270",
+      "productName": "serenity-uil",
+      "productType": "UIL",
+      "policy": "catalyst-bank-uil-policy",
+      "selfServiceManaged": null
+    }
+  ],
+  "ODXP-DPLOY--odx-config-pfb-deploy": [
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015b7",
+      "productName": "Funeral Trust CD",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015a8",
+      "productName": "IOLA Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015a6",
+      "productName": "Analyzed Business Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015b9",
+      "productName": "SMB Certificate of Deposit",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015a1",
+      "productName": "High Yield Business MMDA Promo w/Ckg",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015a7",
+      "productName": "Free Business Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015b8",
+      "productName": "National CD",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015b1",
+      "productName": "Executive Business MMDA",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015b6",
+      "productName": "Business Savings",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015a9",
+      "productName": "eDeposit Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427e5",
+      "productName": "Statement Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427e2",
+      "productName": "Holiday Club",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427e3",
+      "productName": "Kasasa Saver With Cash",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427e4",
+      "productName": "Kasasa Saver With Cash Back",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427d9",
+      "productName": "HSA Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427d7",
+      "productName": "Free and Easy Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427d1",
+      "productName": "Premier MMDA",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427d6",
+      "productName": "Personal MMDA",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427d8",
+      "productName": "IRA Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015b3",
+      "productName": "Pathfinder Sweep Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015b4",
+      "productName": "Court and Trust Account",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015a2",
+      "productName": "High Yield Business MMDA Promo w/out Ckg",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015a5",
+      "productName": "Business Interest Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015a4",
+      "productName": "Landlord Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015a3",
+      "productName": "Estate Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015b5",
+      "productName": "Funeral Trust Savings",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015b2",
+      "productName": "Simple Business Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427e1",
+      "productName": "Young Investor",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427e6",
+      "productName": "Consumer Certificate of Deposit",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427d3",
+      "productName": "Kasasa Cash Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427d4",
+      "productName": "Kasasa Cash Back Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427d5",
+      "productName": "Premier Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ad8d74cb-01c1-45d3-9454-3c8f015427d2",
+      "productName": "Value Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d3b33aaf-7d8f-44a8-bd91-0388c60015c1",
+      "productName": "Tenant Savings (attached to Landlord Checking)",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-dev-deploy": [
+    {
+      "productId": "11e5da3c-d0b5-4662-9b0b-cee23ada68d1",
+      "productName": "Caleb's SMB Credit Card",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "00000003-61dc-4de0-8fc5-643d4cd4fa95",
+      "productName": "Pavel's test product 03",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "3017a7b5-a994-42bc-8fae-dbc205e7a5c9",
+      "productName": "Dev Bank new product instructions testing",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "0fc7abb7-4079-4ebd-93cd-6c102f400b67",
+      "productName": "Benny's SMB Card Take 2",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "db20c217-a30d-47c8-b7e5-c7a66a7bf32e",
+      "productName": "OBAO Horizon Consumer DAO product",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "00000006-61dc-4de0-8fc5-643d4cd4fa95",
+      "productName": "Pavel's test product 06",
+      "productType": "SMB_TL",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "0fc7abb7-4079-4ebd-93cd-6c102f400b66",
+      "productName": "Benny's SMB Card1",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "87557d09-4ee3-49ff-8b83-01d1eaa49f05",
+      "productName": "Dev Test Product - DAO",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "897c7cc9-71a3-477c-827a-7a609ab6ecfb",
+      "productName": "Allison's SMB DAO Product",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1bd53618-7bd3-4367-a657-43be3b3d1f10",
+      "productName": "SMB DAO Multi-Account",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "6ef86aca-57a2-41ea-ab5a-347e42650b85",
+      "productName": "Jaya's Test Product 01",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "8f828546-8408-4c08-9ee2-e3bf1881dc74",
+      "productName": "PLATFORM-12287-test-activity-enrich-product-version-1",
+      "productType": "TestProductType",
+      "policy": "test-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "6eaadeb3-8b84-4d07-8f53-fda33ca8c245",
+      "productName": "Miser Consumer DAO product",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1bd53618-7bd3-4367-a657-43be3b3d1f11",
+      "productName": "Consumer Dao Multi Account",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "67416484-469b-43d2-982e-0dda59b340cf",
+      "productName": "Dev testing smb card 3",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "88a97050-5611-4d57-bc24-d7f279b7f0ef",
+      "productName": "Meg testing session replay",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "588c0349-9b58-4db3-a56a-a4df8a7465e1",
+      "productName": "Dev Testing - Consumer UIL",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "8928f48c-66bd-4388-ae60-f1a462d1c995",
+      "productName": "funttimes",
+      "productType": "SMB_DAO",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "e22e4ec1-f9e3-435f-84b7-3f4e01ff8592",
+      "productName": "Caleb's Consumer Deposit Account",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d80a862d-dd30-4a9b-83d8-087f372c055c",
+      "productName": "Demeter Platinumm",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "00000002-61dc-4de0-8fc5-643d4cd4fa95",
+      "productName": "Pavel's test product 02",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "2665c676-e5c1-418d-9023-99209ed29e9c",
+      "productName": "Dev Training Product",
+      "productType": "DEV_LEARNING",
+      "policy": "amt-dev-learning-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "898c7cc9-71a3-477c-827a-7a609ab6ecfb",
+      "productName": "Allison's Consumer DAO Product",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "bef26488-e9e2-4719-90d0-78fd35c46176",
+      "productName": "Caleb's SMB Line of Credit",
+      "productType": "SMB_LOC",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "4891472c-7d78-4cf5-b260-88132db7e7b6",
+      "productName": "Allison's Test Product - CC",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "0ac1deed-9f95-4e69-9685-5a0311c639d4",
+      "productName": "New Product Debugging",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ceb856db-dee3-4594-8f2e-5a8cd3e76a49",
+      "productName": "DONT TOUCH",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "fbf41186-7042-462f-88e9-1c1520010e08",
+      "productName": "WestCap Cash Back 123",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "d9f04043-d574-4b61-a012-414131cf71de",
+      "productName": "testing empty template var files",
+      "productType": "UIL",
+      "policy": "catalyst-bank-uil-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "00000002-1111-4de0-8fc5-643d4cd4fa95",
+      "productName": "Megan's test product 02",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "56156790-4927-46fd-9fb9-eb4a4e2f2eb3",
+      "productName": "Dev Bank UIL - CUSTOM",
+      "productType": "UIL",
+      "policy": "catalyst-bank-uil-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "595de7a3-5649-458d-8b3f-1ffe7eb1ffb7",
+      "productName": "OBAO SMB DAO Product",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "0820f6e1-61dc-4de0-8fc5-643d4cd4fa95",
+      "productName": "New Product Debugging 2",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "25096ca2-9c43-4028-b5e2-d432a573df40",
+      "productName": "Liz CCD page and templatization testing",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "00000001-61dc-4de0-8fc5-643d4cd4fa95",
+      "productName": "Pavel's test product 01",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "a732edfa-20d3-4baf-a2a1-b6621c168528",
+      "productName": "Dev Bank CC - Template Vars Test",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "1dc0e0a8-8961-48fc-a5c4-02aab8f97a35",
+      "productName": "Dev Bank CC - TESTING PUBLISH2",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "8b900963-7dd4-44a9-a30e-d40259caf6bd",
+      "productName": "OBAO IBS Consumer DAO product",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "7323eaeb-16ce-423d-b1e2-7f5b8f5b7219",
+      "productName": "Project Test 3",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "8719845b-5d14-4b19-bbe5-0e6873d1b82e",
+      "productName": "Manav Test SMB Credit Card 1",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "07947cf2-caa6-4370-ac12-2dd9b055c087",
+      "productName": "Dev testing SMB Card 1",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "00000004-61dc-4de0-8fc5-643d4cd4fa95",
+      "productName": "Pavel's test product 04",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "5558b867-068a-4783-8ac4-76000bc2a242",
+      "productName": "Dev Bank Consumer DAO product",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "96b23701-3b27-40a7-baaa-c5b3377cd01f",
+      "productName": "OBAO IBS SMB DAO Product",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "00000009-b8d4-49a8-a907-de0274770352",
+      "productName": "Very new August product",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "588c0349-9b58-4db3-a56a-a4df8a7465e2",
+      "productName": "Dev Testing - Consumer UIL 2",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ded1c11c-402e-4d0b-8381-113c7ba70539",
+      "productName": "Caleb's SMB Term Loan",
+      "productType": "SMB_TL",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "588c0349-9b58-4db3-a56a-a4df8a7465e3",
+      "productName": "Dev Testing - Consumer UIL 3",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "e511d8ff-6123-4d0b-b254-20e5653b5ac5",
+      "productName": "Dev Bank New CCSS Product - 3",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "fff008d1-d86c-4045-82d7-5d5080f42d06",
+      "productName": "Dev Bank CC_ZACH TEST",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "15612ee2-fd68-4104-a48d-478a16272d88",
+      "productName": "Dev testing smb card 2",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c7a95abf-bb2e-4c38-bd40-be653f61dff7",
+      "productName": "Manav's Test Product 01",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "00000005-61dc-4de0-8fc5-643d4cd4fa95",
+      "productName": "Pavel's test product 05",
+      "productType": "SMB_LOC",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "e10597de-2283-45cc-bdb1-9eec2eb78e84",
+      "productName": "Dev Bank UIL - DEFAULTS",
+      "productType": "UIL",
+      "policy": "catalyst-bank-uil-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "0384e26b-a7ea-4267-9e55-8c3abbac9914",
+      "productName": "Caleb's Consumer Credit Card",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "37601177-b112-49b3-b77e-d61f959b8c84",
+      "productName": "Miser's SMB DAO Product",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1db391aa-c219-4a96-b12d-452e1417954d",
+      "productName": "OBAO Horizon SMB DAO Product",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-vnb-deploy": [
+    {
+      "productId": "4110a262-0f4b-4f24-b480-b7956df0f296",
+      "productName": "Dogwood Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "281443ef-9923-4cf9-93f2-e4ecf1b37c74",
+      "productName": "Personal Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "b7bcc763-c38f-4cf1-8330-bef7918e3f58",
+      "productName": "Premium Money Market Account",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "0c526320-9b0a-409f-95e6-6b59e466776e",
+      "productName": "Commonwealth Account",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "11c07d23-6eb0-4f0c-93c6-af5f9325084c",
+      "productName": "Business Money Market Account",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "0f8bf4dc-efc0-4116-8908-63ceb43a5293",
+      "productName": "Business Economy Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "6cf6039e-364f-4485-8979-bb00d9f6c07a",
+      "productName": "Phoenix Account",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1a2250e3-c9f6-4603-8c4d-880899936318",
+      "productName": "Business Certificate of Deposit",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1511a963-28de-4296-a70e-1f28f9eda86d",
+      "productName": "Business Phoenix Account",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "3f47806f-19f4-46b3-8f8b-3ce0af822758",
+      "productName": "Business Interest Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "11224fdf-9dc5-4d29-b707-9283a88ed78a",
+      "productName": "The Virginian",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "b274f78a-0210-4242-b7e5-7e0f5ad5674b",
+      "productName": "Cardinal Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "dfade720-aeee-4735-a659-5771d28a924d",
+      "productName": "Certificate of Deposit",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "27fe55ae-406e-4b8e-9f68-3653585cd396",
+      "productName": "Money Market Account",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "624e16fe-8519-43b6-9d00-a07ae220f27b",
+      "productName": "Full-Analysis Business Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "4b8dfe71-568f-4ad4-b982-9534615ae612",
+      "productName": "Business Premium Money Market Account",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-sbu-deploy": [
+    {
+      "productId": "605a0c1c-9d81-4286-b598-65084dcc1551",
+      "productName": "Credit Card Classic Low-Rate",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "605a0c1c-9d81-4286-b598-65084dcc1554",
+      "productName": "Business Credit Card Rewards",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "605a0c1c-9d81-4286-b598-65084dcc1553",
+      "productName": "Business Credit Card Low-Rate",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "605a0c1c-9d81-4286-b598-65084dcc1552",
+      "productName": "Credit Card Platinum Rewards",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-gdn-deploy": [
+    {
+      "productId": "088cba98-7ada-422b-970b-f96ba0768560",
+      "productName": "Business Additional Savings",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "088cba98-7ada-422b-970b-f96ba0768561",
+      "productName": "Business Money Market",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "088cba98-7ada-422b-970b-f96ba0768563",
+      "productName": "DO NOT USE",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "91b794db-02fe-4d5f-bea1-8c0635d42757",
+      "productName": "Business Cash Rewards Card",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "088cba98-7ada-422b-970b-f96ba0768562",
+      "productName": "Business Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-mfc-deploy": [
+    {
+      "productId": "3019a6ae-1171-4cb7-ae88-02467ca736f2",
+      "productName": "Visa Platinum Rewards",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "3019a6ae-1171-4cb7-ae88-02467ca736f1",
+      "productName": "Visa Value",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "3019a6ae-1171-4cb7-ae88-02467ca736f0",
+      "productName": "Visa Signature",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-rvc-deploy": [
+    {
+      "productId": "3cdc8b05-88d6-405d-a0b5-06f840149a01",
+      "productName": "Business Interest Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "3cdc8b05-88d6-405d-a0b5-06f840149a00",
+      "productName": "Business Checking ",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "18d1bcb5-73f5-49f5-815e-a1b79cd4d607",
+      "productName": "Consumer Certificate of Deposit",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "18d1bcb5-73f5-49f5-815e-a1b79cd4d600",
+      "productName": "Personal Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "18d1bcb5-73f5-49f5-815e-a1b79cd4d601",
+      "productName": "Personal Interest Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "18d1bcb5-73f5-49f5-815e-a1b79cd4d606",
+      "productName": "Do Not Use-Health Savings Account",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "3cdc8b05-88d6-405d-a0b5-06f840149a05",
+      "productName": "Business Certificate of Deposit",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "3cdc8b05-88d6-405d-a0b5-06f840149a02",
+      "productName": "Business Analyzed Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "3cdc8b05-88d6-405d-a0b5-06f840149a03",
+      "productName": "Business Money Market",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "3cdc8b05-88d6-405d-a0b5-06f840149a04",
+      "productName": "Business Savings",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "18d1bcb5-73f5-49f5-815e-a1b79cd4d603",
+      "productName": "Do Not Use-Junior Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "18d1bcb5-73f5-49f5-815e-a1b79cd4d604",
+      "productName": "Money Market",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "18d1bcb5-73f5-49f5-815e-a1b79cd4d605",
+      "productName": "Personal Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "18d1bcb5-73f5-49f5-815e-a1b79cd4d602",
+      "productName": "Elite Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-qa4-deploy": [
+    {
+      "productId": "1bd53618-7bd3-4367-a657-43be3b3d1f10",
+      "productName": "Automation Testing SMB DAO",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1bd53618-7bd3-4367-a657-43be3b3d1f11",
+      "productName": "Automation Testing Consumer DAO",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ae1952c2-6e60-4f12-aed1-f7e73e96f621",
+      "productName": "SMB Credit Card Demo testing 4dot25",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "8d732bb5-1b75-45af-b62f-736d6532cd69",
+      "productName": "Consumer DAO 4-25 Test",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "8d732bb5-1b75-45af-b62f-736d6532cd68",
+      "productName": "Consumer DAO Demo testing 4-23-u1 Prod",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "109e7e98-b027-4ca1-b7f8-60c707afe707",
+      "productName": "Consumer CC - Automated Testing",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "0b8b67bb-0dc2-4cde-8ddf-53af2a9a3e90",
+      "productName": "SMB DAO Testing Demo Prod",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "dfb9880f-c157-4077-8d87-75b87f2f04b1",
+      "productName": "SMB Credit Card Dev use only test",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1bd53618-7bd3-4367-a657-43be3b3d1f12",
+      "productName": "Automation Testing SMB Credit Card",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "4f563e01-189a-404a-9b27-9a0064beada8",
+      "productName": "Consumer Credit Card Demo",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-qa5-deploy": [
+    {
+      "productId": "e5ca0109-184e-4eb3-bc87-2e8e38fb4e93",
+      "productName": "Landon's Loans",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d978fc7a-4827-42e4-8d67-eb9a515fd488",
+      "productName": "Dev Use Only",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f6aba1d0-e846-453a-8ab2-da5f47134c10",
+      "productName": "Testing-Adi",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d2acabe4-a72a-4581-ba3e-3d5c72178fa1",
+      "productName": "Morgan Stanley Business Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9df5d29e-ebc9-4bc6-b45f-592fc4f49745",
+      "productName": "SMB Product 2",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c33b54a3-3dbc-4184-bfb1-b4312844fec9",
+      "productName": "Mastercard Account Opening",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f0b65d25-2da4-4f89-b186-2655a49d9e0a",
+      "productName": "FI CD's",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "77b67a6b-650d-42f8-bd3e-f225c7b36b2b",
+      "productName": "Business Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "a20cdd64-1db5-4295-8e69-87ac8edefe74",
+      "productName": "FIS Cash Rewards",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "91721d12-2d96-41d7-a48c-50084341781c",
+      "productName": "Rickys Checking ",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ada4c6b6-e447-412a-ba36-13d37142c241",
+      "productName": "Matt Product Testing - DANGER HIGH VOLTAGE",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "4a5dbbe9-b563-4a59-be76-a864cdeb5c11",
+      "productName": "Velera Line Increase",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "130615df-850a-4bce-9e15-0df8267de5b8",
+      "productName": "SMB Product 2",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f0b65d25-2da4-4f89-b186-2655a49d9e0c",
+      "productName": "Catalyst Basic Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f0b65d25-2da4-4f89-b186-2655a49d9e0b",
+      "productName": "FIS OAO Migration - Do not use",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-brb-deploy": [
+    {
+      "productId": "6ea42cd8-953c-4da1-a374-117fa64e84f6",
+      "productName": "Business Certificate of Deposit",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "6ea42cd8-953c-4da1-a374-117fa64e84f1",
+      "productName": "Small Business Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "47ffee22-72a3-4772-b2fc-8f10824b55e7",
+      "productName": "Certificate of Deposit",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "47ffee22-72a3-4772-b2fc-8f10824b55e6",
+      "productName": "Select Savings Account",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "47ffee22-72a3-4772-b2fc-8f10824b55e1",
+      "productName": "Platinum Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "6ea42cd8-953c-4da1-a374-117fa64e84f4",
+      "productName": "Business FDIC Insured Money Market Account",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "6ea42cd8-953c-4da1-a374-117fa64e84f3",
+      "productName": "Analyzed Business Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "6ea42cd8-953c-4da1-a374-117fa64e84f2",
+      "productName": "Advantage Business Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "6ea42cd8-953c-4da1-a374-117fa64e84f5",
+      "productName": "Business Select Savings Account",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "47ffee22-72a3-4772-b2fc-8f10824b55e4",
+      "productName": "Bronze Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "47ffee22-72a3-4772-b2fc-8f10824b55e3",
+      "productName": "Silver Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "47ffee22-72a3-4772-b2fc-8f10824b55e2",
+      "productName": "Gold Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "47ffee22-72a3-4772-b2fc-8f10824b55e5",
+      "productName": "FDIC Insured Money Market Account",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-crl-deploy": [
+    {
+      "productId": "a414d0ed-ad0e-48e0-a06a-8c0497802b02",
+      "productName": "Business Interest",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "a414d0ed-ad0e-48e0-a06a-8c0497802b05",
+      "productName": "Business Premium Money Market",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "04006ead-d912-4763-b6a2-065cf317efd2",
+      "productName": "Carrollton Select",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "04006ead-d912-4763-b6a2-065cf317efd5",
+      "productName": "Totally Free Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "04006ead-d912-4763-b6a2-065cf317efd4",
+      "productName": "Premium Money Market",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "04006ead-d912-4763-b6a2-065cf317efd3",
+      "productName": "Personal Interest Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "a414d0ed-ad0e-48e0-a06a-8c0497802b04",
+      "productName": "Business Analysis",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "a414d0ed-ad0e-48e0-a06a-8c0497802b03",
+      "productName": "Business Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "a414d0ed-ad0e-48e0-a06a-8c0497802b06",
+      "productName": "Business Savings",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "a414d0ed-ad0e-48e0-a06a-8c0497802b01",
+      "productName": "Association Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "04006ead-d912-4763-b6a2-065cf317efd6",
+      "productName": "Certificate of Deposit",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "a414d0ed-ad0e-48e0-a06a-8c0497802b08",
+      "productName": "Certificate of Deposit",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "04006ead-d912-4763-b6a2-065cf317efd1",
+      "productName": "Totally Free Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "04006ead-d912-4763-b6a2-065cf317efd7",
+      "productName": "Advisor Certificate of Deposit",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "a414d0ed-ad0e-48e0-a06a-8c0497802b09",
+      "productName": "Advisor Certificate of Deposit",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "a414d0ed-ad0e-48e0-a06a-8c0497802b07",
+      "productName": "Business ZBA",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-fis-deploy": [
+    {
+      "productId": "ce9a343a-d9e6-4c7f-a9a0-b7eb7d44ce9c",
+      "productName": "Miser Consumer DAO",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ff6a1134-2b28-45a4-80eb-d8fe26b6665d",
+      "productName": "Horizon SMB DAO CD",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "0fed2fc3-ee09-4e30-afb5-7dd5db301fa7",
+      "productName": "Growth Money Market",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "0fed2fc3-ee09-4e30-afb5-7dd5db301fa9",
+      "productName": "Principal Bank - KYC - Ask Craig",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "38fb5a0f-5531-43cb-b6c3-56dda51214b1",
+      "productName": "Horizon Consumer DAO CD",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "0fed2fc3-ee09-4e30-afb5-7dd5db301fa8",
+      "productName": "EverBank Performance Savings - Ask Craig",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "418c6fbb-735d-44fe-88fc-8e2ef9c9c381",
+      "productName": "CNSR Card 2",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9f344ebb-18ab-4bb9-82f5-36d4274a46dc",
+      "productName": "IBS Consumer DAO CD",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "418c6fbb-735d-44fe-88fc-8e2ef9c9c380",
+      "productName": "Secured Credit",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "4aa95747-611a-4107-b99d-ffd0c5384e80",
+      "productName": "P1C Consumer Credit Card",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d6bb72bc-c112-4633-82e1-536a34f5a9cb",
+      "productName": "FIS SMB Credit Card 1",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d6bb72bc-c112-4633-82e1-536a34f5a9ce",
+      "productName": "P1C SMB Credit Card",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d6bb72bc-c112-4633-82e1-536a34f5a9cd",
+      "productName": "BASE2000 SMB Credit Card",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d6bb72bc-c112-4633-82e1-536a34f5a9cc",
+      "productName": "SMB CC 2",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "562e97a6-4a1a-4db5-b0b1-dce9962d58e7",
+      "productName": "IBS SMB DAO CD",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "b5e2c5f1-8e1f-4b73-9f28-25dcf7a86ef3",
+      "productName": "Horizon Consumer DAO",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "5ecf74ae-bc1c-4cb4-8540-8260c77fd909",
+      "productName": "IBS SMB DAO",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d455f86f-d515-45d7-a325-b70339b75a01",
+      "productName": "IBS Consumer DAO",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "fc3d850a-5031-4c4f-9e1f-2b163194f3a6",
+      "productName": "Miser SMB DAO",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "418c6fbb-735d-44fe-88fc-8e2ef9c9c382",
+      "productName": "Piggly Wiggly Rewards Card",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "418c6fbb-735d-44fe-88fc-8e2ef9c9c385",
+      "productName": "Principal Bank - KYB - Ask Craig",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "418c6fbb-735d-44fe-88fc-8e2ef9c9c384",
+      "productName": "Popular Primary Business Checking",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "418c6fbb-735d-44fe-88fc-8e2ef9c9c383",
+      "productName": "FIS Default - Leadership Summit",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "4aa95747-611a-4107-b99d-ffd0c5384e79",
+      "productName": "BASE2000 Consumer Credit Card",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "69cc493e-1019-40ab-8935-195b0f7e9ab4",
+      "productName": "Horizon SMB DAO",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-hbm-deploy": [
+    {
+      "productId": "fa8a1ce9-2b9a-4676-8bc7-3c83e7a3d0b2",
+      "productName": "No Hassle Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "fa8a1ce9-2b9a-4676-8bc7-3c83e7a3d0b5",
+      "productName": "Money Market Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "fa8a1ce9-2b9a-4676-8bc7-3c83e7a3d0b4",
+      "productName": "Statement Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "fa8a1ce9-2b9a-4676-8bc7-3c83e7a3d0b3",
+      "productName": "NOW Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "fa8a1ce9-2b9a-4676-8bc7-3c83e7a3d0b6",
+      "productName": "Certificates of Deposit",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "fa8a1ce9-2b9a-4676-8bc7-3c83e7a3d0b1",
+      "productName": "Student Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-cfr-deploy": [
+    {
+      "productId": "315c426a-7128-4cc6-90f7-afcf83a7ad47",
+      "productName": "Flexible  Certificate",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "315c426a-7128-4cc6-90f7-afcf83a7ad49",
+      "productName": "Special Ready Access Certificate",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "315c426a-7128-4cc6-90f7-afcf83a7ad48",
+      "productName": "Ready Access Certificate",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "315c426a-7128-4cc6-90f7-afcf83a7ad46",
+      "productName": "Time Certificate",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "315c426a-7128-4cc6-90f7-afcf83a7ad41",
+      "productName": "Ready Access Cert",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "315c426a-7128-4cc6-90f7-afcf83a7ad51",
+      "productName": "Flexible Certificate",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "315c426a-7128-4cc6-90f7-afcf83a7ad50",
+      "productName": "Time Certificate",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "315c426a-7128-4cc6-90f7-afcf83a7ad44",
+      "productName": "IRA Certificate",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "315c426a-7128-4cc6-90f7-afcf83a7ad43",
+      "productName": "Ready Access IRA",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "315c426a-7128-4cc6-90f7-afcf83a7ad42",
+      "productName": "Special Ready Access Certificate",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "315c426a-7128-4cc6-90f7-afcf83a7ad45",
+      "productName": "Flexible IRA Certificate",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-lsb-deploy": [
+    {
+      "productId": "c05f111d-c74e-40ad-804a-ef9bea47d983",
+      "productName": "Mortgage Advantage Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c05f111d-c74e-40ad-804a-ef9bea47d984",
+      "productName": "Cashback Rewards Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c05f111d-c74e-40ad-804a-ef9bea47d985",
+      "productName": "Traditional Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c05f111d-c74e-40ad-804a-ef9bea47d982",
+      "productName": "High Interest Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c05f111d-c74e-40ad-804a-ef9bea47d999",
+      "productName": "Certificate of Deposit",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c05f111d-c74e-40ad-804a-ef9bea47d989",
+      "productName": "Insured Money Market",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c05f111d-c74e-40ad-804a-ef9bea47d987",
+      "productName": "Statement Savings Account",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c05f111d-c74e-40ad-804a-ef9bea47d981",
+      "productName": "Free Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c05f111d-c74e-40ad-804a-ef9bea47d986",
+      "productName": "High Interest Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c05f111d-c74e-40ad-804a-ef9bea47d988",
+      "productName": "Small Saver\u2019s Account",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-fld-deploy": [
+    {
+      "productId": "d97144c1-dd07-4687-8dc3-3e8539dfda2d",
+      "productName": "Visa Platinum SS",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "65da9474-98da-4379-9c24-cf8d65888215",
+      "productName": "Visa Platinum",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "3dbe0f6e-e571-4b88-9146-3d9c4e8012c7",
+      "productName": "Visa Platinum with Rewards SS",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "5669661a-354c-4bc5-b568-ba0cded3f3ff",
+      "productName": "Visa Signature Cards",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "871c9e32-5b8a-40dc-9607-63a4a4a1dedd",
+      "productName": "Visa Signature Cards SS",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "314b182e-d0ff-4cca-a29c-4af7e396c511",
+      "productName": "Visa Platinum with Rewards",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    }
+  ],
+  "ODXP-DPLOY--odx-config-uoi-deploy": [
+    {
+      "productId": "97e579ae-d041-4934-876b-6d59024f0f40",
+      "productName": "UICCU Visa Signature Cashback",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "ed73160a-169b-4b22-84da-96f05c22e9e6",
+      "productName": "Illinois Visa Platinum",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "7751e8cd-44bd-4e48-9b34-222a2121cf34",
+      "productName": "UICCU Visa Platinum DM",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "7273e0d4-902c-4ef6-b4a0-6cbc01455202",
+      "productName": "UICCU Visa Signature Cashback DM",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c3e294fb-6197-486f-9b0d-f8e3ed27dd0d",
+      "productName": "UICCU Visa Rewards",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "534fd884-fc5d-467b-8e87-a27cdc394288",
+      "productName": "UICCU Visa Signature Cashback",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "e60638ff-c485-4683-9e17-e7a1a7ca7a12",
+      "productName": "Product4",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "84fe8105-d03b-4552-92df-7ab9a63f7445",
+      "productName": "UICCU Visa Platinum",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "942cc27c-2501-4db5-8410-dc26d321fadd",
+      "productName": "Student Visa",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "843246dc-a181-4a4f-ba9f-d7ff3cff6e33",
+      "productName": "Product3",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9ed55ac1-4303-41e7-94ff-3872dcae33fd",
+      "productName": "Student Visa",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "87a72b51-fdc9-4101-8ad5-64f28a121ac9",
+      "productName": "Illinois Visa Rewards",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "7614bbc1-8056-42c0-b00d-4f68c6244deb",
+      "productName": "UICCU Visa Rewards",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "3b69274c-3170-4d79-b3df-0e3d89e9bae5",
+      "productName": "Illinois Visa Signature Cashback",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "54304230-8c6a-4181-9af5-6f4ecc6872ce",
+      "productName": "Illinois Visa Platinum",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "3a414dad-8315-457e-9e7f-7ab00640ff94",
+      "productName": "UICCU Visa Platinum",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "96b2df15-d609-431d-9c35-9a5d74cb1b22",
+      "productName": "Illinois Visa Rewards",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "6c717cac-8703-743c-5e8a-6cd34640dd67",
+      "productName": "Illinois Visa Signature Cashback",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-tfc-deploy": [
+    {
+      "productId": "e842689f-b9ec-4d90-9d73-d843c0c83942",
+      "productName": "TFCU Visa Platinum",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "e842689f-b9ec-4d90-9d73-d843c0c83940",
+      "productName": "TFCU Visa Classic",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "e842689f-b9ec-4d90-9d73-d843c0c83941",
+      "productName": "TFCU Visa Signature",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-abt-deploy": [
+    {
+      "productId": "9b51bdf0-8cae-4ff2-82cc-535155c9c6a7",
+      "productName": "Interest checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9b51bdf0-8cae-4ff2-82cc-535155c9c6a8",
+      "productName": "Statement Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9b51bdf0-8cae-4ff2-82cc-535155c9c6a1",
+      "productName": "Rewards Interest Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9b51bdf0-8cae-4ff2-82cc-535155c9c6a6",
+      "productName": "Simple Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9b51bdf0-8cae-4ff2-82cc-535155c9c6a3",
+      "productName": "Rewards Savings",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9b51bdf0-8cae-4ff2-82cc-535155c9c6a4",
+      "productName": "Money Market",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9b51bdf0-8cae-4ff2-82cc-535155c9c6a5",
+      "productName": "Customized CD",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9b51bdf0-8cae-4ff2-82cc-535155c9c6a2",
+      "productName": "Rewards Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-lbt-deploy": [
+    {
+      "productId": "8f0c168b-1f84-46df-8e44-19e22065b777",
+      "productName": "Liberty Bank Personal Loans",
+      "productType": "UIL",
+      "policy": "catalyst-bank-uil-policy",
+      "selfServiceManaged": null
+    }
+  ],
+  "ODXP-DPLOY--odx-config-cob-deploy": [
+    {
+      "productId": "9c140bac-a927-45be-a42e-78f44b391a65",
+      "productName": "Business Corporate - NC",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "9c140bac-a927-45be-a42e-78f44b391a62",
+      "productName": "Business Cash Rewards - EC",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "4e8d340e-9ade-42cd-babb-4f879ad1ee05",
+      "productName": "Signature Choice Rewards",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9c140bac-a927-45be-a42e-78f44b391a63",
+      "productName": "Business Signature Choice Rewards - NC",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "9c140bac-a927-45be-a42e-78f44b391a64",
+      "productName": "Business Signature Choice Rewards - EC",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "2e8d340e-9ade-42cd-babb-4f879ad1ee05",
+      "productName": "Travel Rewards",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "5e8d340e-9ade-42cd-babb-4f879ad1ee05",
+      "productName": "Signature Preferred Choice Rewards",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9c140bac-a927-45be-a42e-78f44b391a70",
+      "productName": "Business Corporate - NPG",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "3e8d340e-9ade-42cd-babb-4f879ad1ee05",
+      "productName": "Secure Card",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9c140bac-a927-45be-a42e-78f44b391a71",
+      "productName": "Business Rewards - EC",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "9c140bac-a927-45be-a42e-78f44b391a61",
+      "productName": "Business Cash Rewards - NC",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "9c140bac-a927-45be-a42e-78f44b391a66",
+      "productName": "Business Corporate - EC",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "9c140bac-a927-45be-a42e-78f44b391a68",
+      "productName": "Business Cash Rewards",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "9c140bac-a927-45be-a42e-78f44b391a69",
+      "productName": "Business Signature Choice Rewards - NPG",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "6e8d340e-9ade-42cd-babb-4f879ad1ee05",
+      "productName": "Signature Preferred Private Banking",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9c140bac-a927-45be-a42e-78f44b391a67",
+      "productName": "Business Rewards - NPG",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "9c140bac-a927-45be-a42e-78f44b391a60",
+      "productName": "Business Rewards - NC",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "1e8d340e-9ade-42cd-babb-4f879ad1ee05",
+      "productName": "Cash Rewards",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-qat-deploy": [
+    {
+      "productId": "3b6e63db-1d37-4f15-829d-fee0eb99c38f",
+      "productName": "SMB Secured Term Loan",
+      "productType": "SMB_TL",
+      "policy": "amt-smb-tl-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "5743a1ce-81e3-41ff-8613-ca203b333052",
+      "productName": "SMB Credit Card",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "3c08452f-2af0-4eef-80e4-500ddd95cdc7",
+      "productName": "SMB DAO 10.6.0-52 latest",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c73ca217-5b93-4bf9-a5ea-46f9d9dd4704",
+      "productName": "SMB CC 4-23-u2 New",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "67586e59-6bf8-42e1-9a86-a8cd826012cd",
+      "productName": "Product/Internal Use",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "f6627f61-6379-4f54-bc7f-df639a9123aa",
+      "productName": "Bronze SMB Deposits",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "5ff1d2a8-44ed-4304-afee-4306cced0efa",
+      "productName": "SMB LOC - 4-21 Final one",
+      "productType": "SMB_LOC",
+      "policy": "amt-smb-loc-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "929104c6-3ee2-4458-b7df-b4c830512e13",
+      "productName": "Consumer Dao 4-23-u1",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1adf0f52-905c-4945-944e-7355634b71e1",
+      "productName": "SMB Line of Credit - 4.19",
+      "productType": "SMB_LOC",
+      "policy": "amt-smb-loc-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "df681687-c53e-4126-8a3e-4961a17db361",
+      "productName": "Consumer DAO 4.21.u2 testing",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "3d0f0372-69ed-4bea-b42e-5e9532544ede",
+      "productName": "SMB Secured Line of Credit",
+      "productType": "SMB_LOC",
+      "policy": "amt-smb-loc-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "4970c8e7-870f-4d4b-9101-b83b68847cb2",
+      "productName": "SMB DAO 4.21.u2 testing",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1284ab3e-4874-4263-b31e-df56e9749575",
+      "productName": "SMB CreditCard 4-22-U1 updated",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "ee29a491-19e4-408d-8db3-edf08db6a409",
+      "productName": "SMB CC 4-23-u1",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f46e6f4e-1c5b-4c66-a213-1493ee87e49f",
+      "productName": "Consumer DAO - 4-25-u2",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "44f00127-386e-45aa-b29e-a4f1b77fc1e8",
+      "productName": "SMB DAO 10.6.0-51 latest",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c33b54a3-3dbc-4184-bfb1-b4312844fec9",
+      "productName": "World Elite Mastercard",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1208dab5-548c-4e77-9233-b804352a7714",
+      "productName": "Serenity Credit Card Test",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "d99008f0-8ad8-4df1-a992-e78a3a33eb50",
+      "productName": "STOP DO NOT USE QA Automation testing",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ff5cfce7-3b1e-4a6d-861c-e855b1d539bf",
+      "productName": "SS CC 417 Custom Pricing Testing MDD",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "4160cda4-6daa-4d8c-b408-bd6b6d747cc4",
+      "productName": "SMB Credit Card - Product Type Defaults",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "971b2afc-318d-4aa8-9fb4-362b9d808d20",
+      "productName": "serenity-uil",
+      "productType": "UIL",
+      "policy": "catalyst-bank-uil-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "011612b4-599f-4b0d-b31c-f4746bed31e8",
+      "productName": "SMB DAO 4-23-u1 Latest",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "80b58798-1fce-465e-8310-819c289b01f6",
+      "productName": "SMB TL - 4-21",
+      "productType": "SMB_TL",
+      "policy": "amt-smb-tl-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ecb49234-8c50-4deb-b3b2-2862e8d71b02",
+      "productName": "SMB DAO 4-25-u2",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "16796a97-0f6f-4bd6-b79a-1df436620a21",
+      "productName": "SMB Line of Credit - 4-21",
+      "productType": "SMB_LOC",
+      "policy": "amt-smb-loc-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "4ae90e43-331c-479f-9783-8f9349271577",
+      "productName": "SMB Term Loan Second Prod - 4.19",
+      "productType": "SMB_TL",
+      "policy": "amt-smb-tl-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "18036d27-f7dd-490a-b6a6-dd7af6c94fcc",
+      "productName": "SMB TL - 4-20 Testing Final one",
+      "productType": "SMB_TL",
+      "policy": "amt-smb-tl-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "436579aa-0990-4583-9948-6bdb344a1c08",
+      "productName": "Consumer DAO - Checking",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "0bf5cbad-121a-42e5-8624-d801959f7ca7",
+      "productName": "Dev Defaults",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "fedf5400-4596-4473-8a82-ca39276daec4",
+      "productName": "Consumer CC 4-23-u1",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "0e8d340e-9ade-42cd-babb-4f879ad1ee05",
+      "productName": "Silver Credit Card",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "355803ca-433d-45af-afcd-49aabe9db68c",
+      "productName": "SS Credit Card 4-25-u2 ",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "937e8dff-c071-4c59-897c-0f901d3c2c99",
+      "productName": "Consumer DAO - Certificate of Deposit",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "a808f4a1-4690-4b09-818a-e8262d52593e",
+      "productName": "SMB CC 417 - MDD Pricing Testing",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": false
+    },
+    {
+      "productId": "906f5fd7-fdd8-443a-bcba-a8b001a09b4d",
+      "productName": "Consumer DAO 424",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "12dc6f21-b8d4-49a8-a907-de0274770352",
+      "productName": "Golden Credit Card",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1c3cf877-eb1d-483d-b193-8a7b8fa8156a",
+      "productName": "New Product Test2 - Dev Defaults",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "e0d6313b-0f53-4241-b49b-318c6f48a8e0",
+      "productName": "Consumer CC - QA - 4-25-u1",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "f0b65d25-2da4-4f89-b186-2655a49d9e0d",
+      "productName": "12/25 Hackathon - FIS OAO Migration",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "189b6de7-3be5-4a46-bb3d-887ea015413c",
+      "productName": "New Product Test - Dev Defaults",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "bc1ebc8f-21aa-4fd3-8ee3-8a41124b3904",
+      "productName": "Consumer CC 4-23-u1",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "94d6c478-72f2-40c8-849b-a6d815793772",
+      "productName": "Initial Self Service Credit Card",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "acd703ae-6e7b-4092-8280-4249fc7f3974",
+      "productName": "credit card product test 1",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    }
+  ],
+  "ODXP-DPLOY--odx-config-acu-deploy": [
+    {
+      "productId": "7f603197-8c9e-483a-a4fe-13a18fbf7b1d",
+      "productName": "Visa Platinum",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "e351149b-6347-401e-8e21-e52c686754b9",
+      "productName": "Visa Signature",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-msc-deploy": [
+    {
+      "productId": "1e2a193f-ad79-450b-926c-25384a0973d1",
+      "productName": "Visa Signature Card",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1e2a193f-ad79-450b-926c-25384a0973d2",
+      "productName": "Visa Platinum Premium Card",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "1e2a193f-ad79-450b-926c-25384a0973d3",
+      "productName": "Visa Platinum Card",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-anb-deploy": [
+    {
+      "productId": "d661f074-7130-4a98-baf8-03ddbafa1dde",
+      "productName": "Rewards",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c4fea860-de16-4a92-95c7-e98dd4564266",
+      "productName": "Lower Rate",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ce44b410-096f-4fce-bbbd-eac17d190cff",
+      "productName": "Business Credit Card",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "21e7c60f-5c6c-4667-8c60-c2b0516fcc02",
+      "productName": "Build Credit",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-ctr-deploy": [
+    {
+      "productId": "22052737-b01e-4cf9-a55a-233a67b8c342",
+      "productName": "BUSINESS ZERO+ CARD",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "51c8b1b3-a083-4ae6-81ca-a861616bbd13",
+      "productName": "MAX CASH PREFERRED CARD",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "51c8b1b3-a083-4ae6-81ca-a861616bbd12",
+      "productName": "EVERYDAY REWARDS+ CARD",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "22052737-b01e-4cf9-a55a-233a67b8c341",
+      "productName": "BUSINESS CASH PREFERRED CARD",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "51c8b1b3-a083-4ae6-81ca-a861616bbd11",
+      "productName": "ZERO+ CARD",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-fsf-deploy": [
+    {
+      "productId": "e25f992f-c61f-458a-b3a0-347d69ad0720",
+      "productName": "SCI Rewards VISA Credit Card",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-slt-deploy": [
+    {
+      "productId": "16554393-7980-4d9f-9b53-5a8f06819385",
+      "productName": "SLT UIL One",
+      "productType": "UIL",
+      "policy": "catalyst-bank-uil-policy",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "68794dcb-238b-4c13-8cc5-ee1eaf871b92",
+      "productName": "SLT Bank Personal Loan",
+      "productType": "UIL",
+      "policy": "catalyst-bank-uil-policy",
+      "selfServiceManaged": null
+    }
+  ],
+  "ODXP-DPLOY--odx-config-pod-deploy": [
+    {
+      "productId": "0a1d0fd0-728e-4739-b7b8-8d17683d28c4",
+      "productName": "CATALYST CREDIT CARD",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-jnb-deploy": [
+    {
+      "productId": "3ccc63ea-d328-4a05-aaa5-6700da4f9a49",
+      "productName": "CONSUMER INCOME VER",
+      "productType": "CONSUMER_INCOME_VER",
+      "policy": "consumer-income-ver-policy",
+      "selfServiceManaged": false
+    }
+  ],
+  "ODXP-DPLOY--odx-config-qa3-deploy": [
+    {
+      "productId": "6d8462a7-44eb-4c93-a589-1d22da9708fd",
+      "productName": "SMB Card 2",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "ea6f95d7-a40b-4553-bd49-675a92a4a83b",
+      "productName": "SMB DAO 2",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "9fbcb78c-b364-43a8-b9b4-af84b2aa36ba",
+      "productName": "Consumer Card 2",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "e44de77b-bb82-4f6e-be21-2d60f4882f15",
+      "productName": "SMB DAO 4'19'u2-2 hotfix",
+      "productType": "SMB_DAO",
+      "policy": "amt-smb-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "7eb97389-979b-486f-bdbb-d9ed70e6b5cc",
+      "productName": "Matt Decisioned Guarantor Testing 416u2",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d345d5ef-6b64-4671-9c0d-bfd7be67953e",
+      "productName": "Consumer DAO 1",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "7ef023d8-3213-4401-8a0e-ca1542ea45ab",
+      "productName": "Consumer Card 1",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "d345d5ef-6b64-4671-9c0d-bfd7be67953f",
+      "productName": "Consumer DAO 2",
+      "productType": "CONSUMER_DAO",
+      "policy": "amt-consumer-dao-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-qa1-deploy": [
+    {
+      "productId": "ba836b18-e9b2-42cb-82b5-e227f9767e31",
+      "productName": "Consumer Uil - 4.23 testing",
+      "productType": "CONSUMER_UIL",
+      "policy": "amt-consumer-uil-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-umd-deploy": [
+    {
+      "productId": "a4e9f1a3-8d12-4c3b-950e-12d5a9f3b791",
+      "productName": "Terps Card",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "cee714e2-2da3-43fd-924d-c3c627b44108",
+      "productName": "Terps Card",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    }
+  ],
+  "ODXP-DPLOY--odx-config-apc-deploy": [
+    {
+      "productId": "4e354262-c01d-48a2-b173-ab86e41fb2e3",
+      "productName": "Piggly Wiggly Rewards",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "6e2beba1-1ab8-4638-9d30-67d8850237b7",
+      "productName": "Card 2",
+      "productType": "CREDIT_CARD_SELF_SERVICE",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-dmo-deploy": [
+    {
+      "productId": "69807d4a-b8ce-4e05-80e5-5cadef895cd6",
+      "productName": "Serenity Credit Card",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    },
+    {
+      "productId": "a5c91f5b-4fb5-40bc-b87b-c70e1ed97550",
+      "productName": "serenity-uil",
+      "productType": "UIL",
+      "policy": "catalyst-bank-uil-policy",
+      "selfServiceManaged": null
+    }
+  ],
+  "ODXP-DPLOY--odx-config-apx-deploy": [
+    {
+      "productId": "c4af82fd-57dc-40e9-9899-8dc9a6057c15",
+      "productName": "Business Signature Choice Rewards - Existing Customer",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c4af82fd-57dc-40e9-9899-8dc9a6057c12",
+      "productName": "Business Cash Rewards - New Customer",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c4af82fd-57dc-40e9-9899-8dc9a6057c13",
+      "productName": "Business Cash Rewards - Existing Customer",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c4af82fd-57dc-40e9-9899-8dc9a6057c14",
+      "productName": "Business Signature Choice Rewards - New Customer",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c4af82fd-57dc-40e9-9899-8dc9a6057c11",
+      "productName": "Business Rewards - Existing Customer",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c4af82fd-57dc-40e9-9899-8dc9a6057c16",
+      "productName": "Business Corporate - New Customer",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c4af82fd-57dc-40e9-9899-8dc9a6057c20",
+      "productName": "Business Signature Choice Rewards - Non PG",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c4af82fd-57dc-40e9-9899-8dc9a6057c18",
+      "productName": "Business Rewards - Non PG",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c4af82fd-57dc-40e9-9899-8dc9a6057c19",
+      "productName": "Business Cash Rewards - Non PG",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c4af82fd-57dc-40e9-9899-8dc9a6057c21",
+      "productName": "Business Corporate - Non PG",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c4af82fd-57dc-40e9-9899-8dc9a6057c17",
+      "productName": "Business Corporate - Existing Customer",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    },
+    {
+      "productId": "c4af82fd-57dc-40e9-9899-8dc9a6057c10",
+      "productName": "Business Rewards - New Customer",
+      "productType": "SMB_CREDIT_CARD",
+      "policy": "amt-smb-credit-card-policy",
+      "selfServiceManaged": true
+    }
+  ],
+  "ODXP-DPLOY--odx-config-ccc-deploy": [
+    {
+      "productId": "ad633de9-9997-4076-842b-e3668961941a",
+      "productName": "serenity-credit-card",
+      "productType": "CREDIT_CARD",
+      "policy": "catalyst-cc-policy-poc",
+      "selfServiceManaged": null
+    }
+  ]
+}
