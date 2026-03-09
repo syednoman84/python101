@@ -96,7 +96,14 @@ PRODUCT_KEY_REGEX = re.compile(r"^(?P<ptype>.+)_Product_(?P<idx>\d+)$")
 def automate(params):
     # --- Decide working directory from params ---
     working_dir_param = params.get("workingDirectory", "workdir")
-    workdir = Path(working_dir_param).expanduser().absolute()
+    workdir = Path(working_dir_param)
+    
+    # If relative path, resolve from script's parent directory (project root)
+    if not workdir.is_absolute():
+        script_parent = Path(__file__).parent.parent
+        workdir = (script_parent / workdir).resolve()
+    else:
+        workdir = workdir.expanduser().absolute()
 
     if workdir.exists():
         logging.info(f"Cleaning existing workdir at {workdir}")
@@ -240,13 +247,13 @@ def automate(params):
         # --- Step 13 - Commit & push ---
         logging.info("Committing and pushing changes")
         run_cmd(["git", "add", "."], cwd=dest_repo)
-        run_cmd(["git", "commit", "-m", "Automated setup script commit"], cwd=dest_repo)
+        run_cmd(["git", "commit", "-m", "PCM products created by automation script"], cwd=dest_repo)
         run_cmd(["git", "push", "--set-upstream", "origin", branch_name], cwd=dest_repo)
 
         # --- Step 14 - Create Pull Request ---
         pr_title = params.get("pr_title", "Automated setup script changes")
         logging.info(f"Creating Pull Request: {branch_name} -> master")
-        run_cmd(["gh", "pr", "create", "--base", "master", "--head", branch_name, "--title", pr_title, "--body", "Automated PR created by setup script"], cwd=dest_repo)
+        run_cmd(["gh", "pr", "create", "--base", "master", "--head", branch_name, "--title", pr_title, "--body", "PR created by automation script to setup new PCM products"], cwd=dest_repo)
 
         logging.info("✅ Automation completed successfully.")
         if summary:
@@ -272,8 +279,8 @@ def automate(params):
 
 
 if __name__ == "__main__":
-    script_dir = Path(__file__).parent
-    params_file = script_dir / "params.txt"
+    script_dir = Path(__file__).parent.parent
+    params_file = script_dir / "params" / "params.txt"
 
     if not params_file.exists():
         logging.error(f"❌ Parameters file not found: {params_file}")

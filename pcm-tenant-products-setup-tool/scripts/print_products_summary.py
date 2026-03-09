@@ -54,15 +54,41 @@ def print_summary(product_dir):
         print()
 
 if __name__ == "__main__":
-    script_dir = Path(__file__).parent
-    params_file = script_dir / "params.txt"
+    script_dir = Path(__file__).parent.parent
+    params_file = script_dir / "params" / "params.txt"
     
     if not params_file.exists():
         print(f"❌ Parameters file not found: {params_file}")
         sys.exit(1)
     
     params = load_params(params_file)
-    working_dir = Path(params.get("workingDirectory", "workdir")).expanduser().absolute()
-    product_dir = working_dir / "destination" / "product"
+    
+    # Create validation directory
+    validation_dir = script_dir / "validation"
+    if validation_dir.exists():
+        print(f"Cleaning existing validation directory...")
+        import shutil
+        shutil.rmtree(validation_dir)
+    validation_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Clone the remote branch for validation
+    dest_repo_url = params.get('destination_repo_github_url')
+    branch_name = params.get('branchName', 'master')
+    
+    if not dest_repo_url:
+        print("❌ destination_repo_github_url not found in params.txt")
+        sys.exit(1)
+    
+    print(f"📥 Cloning remote branch '{branch_name}' from {dest_repo_url}...")
+    dest_repo = validation_dir / "destination"
+    
+    import subprocess
+    try:
+        subprocess.run(["git", "clone", "-b", branch_name, dest_repo_url, str(dest_repo)], check=True, capture_output=True)
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Failed to clone branch '{branch_name}': {e.stderr.decode()}")
+        sys.exit(1)
+    
+    product_dir = dest_repo / "product"
     
     print_summary(product_dir)

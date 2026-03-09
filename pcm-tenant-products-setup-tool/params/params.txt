@@ -2,53 +2,50 @@
 # INPUTS
 #################################################
 # Github URL for the tenant config repo
-destination_repo_github_url=https://git.shared.linearft.tools/odx-platform-configs/ODXP-DPLOY--odx-config-vnb-deploy.git
+destination_repo_github_url=https://git.shared.linearft.tools/odx-platform-configs/ODXP-DPLOY--odx-config-gbt-deploy.git
 
 # Placeholders values for env files
-tenant-domain=vnb
-tenant-id=vnb
+tenant-domain=guarantybank
+tenant-id=gbt
 
 # List of Products to be created
-Consumer_DAO_Product_1=Cardinal Checking
-Consumer_DAO_Product_2=Commonwealth Account
-Consumer_DAO_Product_3=The Virginian
-Consumer_DAO_Product_4=Personal Savings
-Consumer_DAO_Product_5=Dogwood Savings
-Consumer_DAO_Product_6=Money Market Account
-Consumer_DAO_Product_7=Premium Money Market Account
-Consumer_DAO_Product_8=Phoenix Account
-Consumer_DAO_Product_9=Certificate of Deposit
-SMB_DAO_Product_1=Business Economy Checking
-SMB_DAO_Product_2=Full-Analysis Business Checking
-SMB_DAO_Product_3=Business Interest Checking
-SMB_DAO_Product_4=Business Money Market Account
-SMB_DAO_Product_5=Business Premium Money Market Account
-SMB_DAO_Product_6=Business Phoenix Account
-SMB_DAO_Product_7=Business Certificate of Deposit
-#Consumer_CC_Product_1=Rewards
-#Consumer_CC_Product_2=Lower Rate
-#Consumer_CC_Product_3=Build Credit
-#SMB_DAO_Product_1=Low Rate SMB DAO
-#SMB_CC_Product_1=Business Credit Card
-#SMB_LOC_Product_1=Platinum SMB LOC
-#SMB_DAO_Product_2=Premium SMB DAO
-#SMB_CC_Product_2=Business Rewards SMB CC
+Consumer_DAO_Product_1=Freedom Checking
+SMB_DAO_Product_1=Commercial Money Market
+Consumer_CC_Product_1=Test Card
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Tag name for template_vars repo (optional, uses default branch if not specified)
-template_vars_tag=12.4.1
+template_vars_tag=12.5.1
 
 # Set your PR title or it will default to Automated setup script changes
-pr_title=SCS-2991 Initial Setup
+pr_title=SCS-3040 Initial Setup
 
 #################################################
 # THINGS TO NOT CHANGE FOR EVERY TENANT SETUP UNLESS YOU WANT TO UPDATE PATHS AS PER YOUR MACHINE
 #################################################
 
-# Working directory for everything
-workingDirectory=/Users/NomanAhmed/Documents/Noman/pcm-tenants-setup/workdir
+# Working directory for everything (relative to project root)
+workingDirectory=/Users/NomanAhmed/Documents/Noman/code/github/python101/pcm-tenant-products-setup-tool/results
 
 # Configures the branch name that you want to create in the tenant config repo
-branchName=feature-new-products
+branchName=feature/SCS-3040
 
 # Github URL for the baseline files for app and env files
 static_files_repo_github_url=https://git.shared.linearft.tools/odx-platform-configs/ODXP-DPLOY--odx-config-slt-deploy.git

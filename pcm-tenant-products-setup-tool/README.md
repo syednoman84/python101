@@ -313,6 +313,7 @@ NewType_Product_1=First New Type Product
 ### 📂 Validation scripts show "directory not found"
 - Ensure main setup script completed successfully
 - Check workingDirectory path in params.txt
+- If using web UI, check `web-ui/workdir` directory
 - Verify cleanup_after_run is set to false
 
 ### ⚠️ Env validation fails

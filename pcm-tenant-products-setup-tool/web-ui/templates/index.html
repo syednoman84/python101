@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛠️ PCM Tenants Configuration Setup</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0284c7 0%, #0369a1 50%, #075985 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .landing-page {
+            padding: 60px 40px;
+            text-align: center;
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .landing-title {
+            font-size: 2.5em;
+            color: #0369a1;
+            margin-bottom: 20px;
+        }
+        .landing-subtitle {
+            font-size: 1.2em;
+            color: #6c757d;
+            margin-bottom: 50px;
+        }
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .landing-btn {
+            padding: 40px 30px;
+            border: 3px solid #e9ecef;
+            border-radius: 15px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #495057;
+            position: relative;
+        }
+        .landing-btn:hover {
+            border-color: #0284c7;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(2, 132, 199, 0.3);
+        }
+        .landing-btn.active {
+            background: linear-gradient(135deg, #0284c7 0%, #075985 100%);
+            color: white;
+            border-color: #0284c7;
+        }
+        .landing-btn.active:hover {
+            box-shadow: 0 10px 30px rgba(2, 132, 199, 0.5);
+        }
+        .landing-btn.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            background: #f8f9fa;
+        }
+        .landing-btn.disabled:hover {
+            transform: none;
+            box-shadow: none;
+            border-color: #e9ecef;
+        }
+        .landing-btn-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+        .landing-btn-title {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+        }
+        .landing-btn-desc {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        .coming-soon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #ffc107;
+            color: #000;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.7em;
+            font-weight: bold;
+        }
+        .header {
+            background: linear-gradient(135deg, #0284c7 0%, #075985 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .header p { opacity: 0.9; font-size: 1.1em; }
+        .tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+        }
+        .tab {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: none;
+            background: none;
+            font-size: 1em;
+            font-weight: 600;
+            color: #6c757d;
+        }
+        .tab:hover { background: #e9ecef; }
+        .tab.active {
+            background: white;
+            color: #0369a1;
+            border-bottom: 3px solid #0284c7;
+        }
+        .content {
+            padding: 30px;
+            display: none;
+        }
+        .content.active { display: block; }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #495057;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border 0.3s;
+        }
+        .form-group input:focus, .form-group textarea:focus {
+            outline: none;
+            border-color: #0284c7;
+        }
+        .form-group textarea { min-height: 100px; resize: vertical; }
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-right: 10px;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #0284c7 0%, #075985 100%);
+            color: white;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(2, 132, 199, 0.4);
+        }
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+        .btn-secondary:hover { background: #5a6268; }
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+        .btn-success:hover { background: #218838; }
+        .output {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            font-family: 'Courier New', monospace;
+            white-space: pre-wrap;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .product-row {
+            display: grid;
+            grid-template-columns: 200px 1fr 50px;
+            gap: 10px;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        .product-row select, .product-row input {
+            padding: 10px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+        }
+        .remove-btn {
+            background: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 6px 12px;
+            cursor: pointer;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+        .remove-btn:hover { background: #c82333; }
+        .add-product-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 6px 12px;
+            cursor: pointer;
+            font-size: 0.85em;
+            margin-left: 10px;
+        }
+        .add-product-btn:hover { background: #218838; }
+        .products-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .products-header label {
+            margin-bottom: 0;
+        }
+        .info-box {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .success-box {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .error-box {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .progress-container {
+            display: none;
+            margin-top: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            border: 2px solid #e9ecef;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: #e9ecef;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #0284c7 0%, #075985 100%);
+            width: 0%;
+            transition: width 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        .progress-text {
+            margin-top: 10px;
+            color: #495057;
+            font-size: 0.95em;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body { padding: 10px; }
+            .container { border-radius: 10px; }
+            .header { padding: 20px; }
+            .header h1 { font-size: 1.8em; }
+            .header p { font-size: 0.95em; }
+            .header button { position: static !important; margin-bottom: 15px; width: 100%; }
+            .landing-page { padding: 30px 20px; min-height: auto; }
+            .landing-title { font-size: 1.8em; }
+            .landing-subtitle { font-size: 1em; margin-bottom: 30px; }
+            .button-grid { grid-template-columns: 1fr; gap: 20px; }
+            .landing-btn { padding: 30px 20px; }
+            .landing-btn-icon { font-size: 2.5em; }
+            .landing-btn-title { font-size: 1.1em; }
+            .tabs { flex-wrap: wrap; }
+            .tab { padding: 15px 10px; font-size: 0.9em; }
+            .content { padding: 20px; }
+            .product-row { grid-template-columns: 1fr; gap: 8px; }
+            .remove-btn { width: 100%; }
+            .btn { width: 100%; margin-bottom: 10px; }
+            .form-group input, .form-group textarea { font-size: 16px; }
+        }
+        
+        @media (max-width: 480px) {
+            .header h1 { font-size: 1.5em; }
+            .header p { font-size: 0.85em; }
+            .landing-title { font-size: 1.5em; }
+            .landing-subtitle { font-size: 0.9em; }
+            .landing-btn { padding: 25px 15px; }
+            .landing-btn-icon { font-size: 2em; }
+            .landing-btn-title { font-size: 1em; }
+            .landing-btn-desc { font-size: 0.85em; }
+            .tab { padding: 12px 8px; font-size: 0.85em; }
+            .content { padding: 15px; }
+            h2 { font-size: 1.3em; }
+            h3 { font-size: 1.1em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Landing Page -->
+        <div id="landingPage" class="landing-page">
+            <div class="header">
+                <h1>🛠️ PCM Tenants Configuration Setup</h1>
+                <p>Automated tenant configuration management with validation</p>
+            </div>
+            
+            <div style="padding: 40px;">
+                <h2 class="landing-title">Choose Your Action</h2>
+                <p class="landing-subtitle">Select one of the options below to get started</p>
+                
+                <div class="button-grid">
+                    <div class="landing-btn active" onclick="navigateToSetup()">
+                        <div class="landing-btn-icon">🆕</div>
+                        <div class="landing-btn-title">PCM Products Setup</div>
+                        <div class="landing-btn-title">for New Tenant</div>
+                        <div class="landing-btn-desc">Create products for a brand new tenant</div>
+                    </div>
+                    
+                    <div class="landing-btn disabled">
+                        <span class="coming-soon">COMING SOON</span>
+                        <div class="landing-btn-icon">➕</div>
+                        <div class="landing-btn-title">Add PCM Products</div>
+                        <div class="landing-btn-title">for Existing Tenant</div>
+                        <div class="landing-btn-desc">Add new products to existing tenant</div>
+                    </div>
+                    
+                    <div class="landing-btn disabled">
+                        <span class="coming-soon">COMING SOON</span>
+                        <div class="landing-btn-icon">🚫</div>
+                        <div class="landing-btn-title">Disable PCM Products</div>
+                        <div class="landing-btn-title">for Existing Tenant</div>
+                        <div class="landing-btn-desc">Disable products for a tenant</div>
+                    </div>
+                    
+                    <div class="landing-btn disabled">
+                        <span class="coming-soon">COMING SOON</span>
+                        <div class="landing-btn-icon">📊</div>
+                        <div class="landing-btn-title">Tenant Products</div>
+                        <div class="landing-btn-title">Analyzer</div>
+                        <div class="landing-btn-desc">Analyze existing tenant products</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main App (Hidden Initially) -->
+        <div id="mainApp" style="display: none;">
+        <div class="header">
+            <h1>🛠️ PCM Tenants Configuration Setup</h1>
+            <p>Automated tenant configuration management with validation</p>
+            <button onclick="backToLanding()" style="position: absolute; top: 20px; left: 20px; background: rgba(255,255,255,0.2); border: 2px solid white; color: white; padding: 10px 20px; border-radius: 8px; cursor: pointer; font-weight: 600;">
+                ← Back
+            </button>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('setup')">🚀 Setup</button>
+            <button class="tab" onclick="showTab('validate')">✅ Validate</button>
+            <button class="tab" onclick="showTab('summary')">📊 Summary</button>
+            <button class="tab" onclick="showTab('docs')">📖 Docs</button>
+            <button class="tab" onclick="showTab('about')">ℹ️ About</button>
+        </div>
+
+        <!-- Setup Tab -->
+        <div id="setup" class="content active">
+            <h2>🚀 Tenant Configuration Setup</h2>
+            <div class="info-box">
+                <strong>ℹ️ Info:</strong> Configure your tenant settings and products below, then run the setup script.
+            </div>
+
+            <div class="form-group">
+                <label>📦 Destination Repository URL</label>
+                <input type="text" id="destRepo" value="https://git.shared.linearft.tools/odx-platform-configs/ODXP-DPLOY--odx-config-tenantId-deploy.git" required>
+            </div>
+
+            <div class="form-group">
+                <label>🏢 Tenant Domain</label>
+                <input type="text" id="tenantDomain" value="tenantDomain" required>
+            </div>
+
+            <div class="form-group">
+                <label>🆔 Tenant ID</label>
+                <input type="text" id="tenantId" value="tenantId" required>
+            </div>
+
+            <div class="form-group">
+                <label>🏷️ Template Vars Tag</label>
+                <input type="text" id="templateTag" value="tagVersion" required>
+            </div>
+
+            <div class="form-group">
+                <label>📝 Pull Request Title</label>
+                <input type="text" id="prTitle" value="SCS-XYZ Initial Setup" required>
+            </div>
+
+            <div class="form-group">
+                <label>🌱 Branch Name</label>
+                <input type="text" id="branchName" value="feature/SCS-XYZ" required>
+            </div>
+
+            <div class="form-group">
+                <div class="products-header">
+                    <label>🎯 Products</label>
+                    <button class="add-product-btn" onclick="addProduct()">➕ </button>
+                </div>
+                <div id="productsContainer"></div>
+            </div>
+
+            <button class="btn btn-primary" onclick="runSetup()">🚀 Execute</button>
+
+            <div id="progressContainer" class="progress-container">
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill">0%</div>
+                </div>
+                <div id="progressText" class="progress-text">Initializing...</div>
+            </div>
+
+            <h3 id="consoleLogHeader" style="display:none; margin-top: 30px; margin-bottom: 10px; color: #495057;">📋 Console Log</h3>
+            <div id="setupOutput" class="output" style="display:none;"></div>
+        </div>
+
+        <!-- Validate Tab -->
+        <div id="validate" class="content">
+            <h2>✅ Validation Tools</h2>
+            <div class="info-box">
+                <strong>ℹ️ Info:</strong> Run validation scripts to verify your setup.
+            </div>
+
+            <button class="btn btn-success" onclick="runValidation('template_vars')">📊 Validate Template Vars</button>
+            <button class="btn btn-success" onclick="runValidation('env_files')">📄 Validate Env Files</button>
+            <button class="btn btn-success" onclick="runValidation('all')">✅ Validate All</button>
+
+            <div id="validateOutput" class="output" style="display:none;"></div>
+        </div>
+
+        <!-- Summary Tab -->
+        <div id="summary" class="content">
+            <h2>📊 Product Summary</h2>
+            <div class="info-box">
+                <strong>ℹ️ Info:</strong> View all created products and their definitions.
+            </div>
+
+            <button class="btn btn-primary" onclick="showSummary()">📊 Show Product Summary</button>
+
+            <div id="summaryOutput" class="output" style="display:none;"></div>
+        </div>
+
+        <!-- Docs Tab -->
+        <div id="docs" class="content">
+            <h2>📖 Documentation</h2>
+            <div class="info-box">
+                <strong>ℹ️ Info:</strong> Complete project documentation from README.md
+            </div>
+
+            <button class="btn btn-primary" onclick="loadReadme()">📖 Load Documentation</button>
+
+            <div id="docsContent" style="display:none; margin-top: 20px; padding: 20px; background: #f8f9fa; border-radius: 8px; line-height: 1.6;"></div>
+        </div>
+
+        <!-- About Tab -->
+        <div id="about" class="content">
+            <h2>ℹ️ About</h2>
+            <div class="info-box">
+                <h3>🛠️ PCM Tenants Configuration Setup</h3>
+                <p>This tool automates the process of setting up tenant configurations by:</p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>📥 Cloning repositories</li>
+                    <li>🌱 Creating feature branches</li>
+                    <li>📁 Creating product directories</li>
+                    <li>📊 Copying template variables</li>
+                    <li>📝 Generating definition.json files</li>
+                    <li>✅ Committing and pushing changes</li>
+                    <li>📤 Creating pull requests</li>
+                </ul>
+            </div>
+
+            <h3 style="margin-top: 20px;">🏷️ Supported Product Types</h3>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li><strong>Consumer_CC</strong> - Consumer Credit Card Self Service</li>
+                <li><strong>Consumer_DAO</strong> - Consumer Deposit Account Opening</li>
+                <li><strong>SMB_DAO</strong> - Small Business Deposit Account Opening</li>
+                <li><strong>SMB_CC</strong> - Small Business Credit Card</li>
+                <li><strong>SMB_LOC</strong> - Small Business Line of Credit</li>
+                <li><strong>SMB_TL</strong> - Small Business Term Loan</li>
+            </ul>
+
+            <h3 style="margin-top: 20px;">🛠️ Prerequisites</h3>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>Python 3.6+</li>
+                <li>Git CLI</li>
+                <li>GitHub CLI (gh)</li>
+                <li>Access to required repositories</li>
+            </ul>
+        </div>
+        </div>
+        <!-- End Main App -->
+    </div>
+
+    <script>
+        const productTypes = ['Consumer_CC', 'Consumer_DAO', 'SMB_DAO', 'SMB_CC', 'SMB_LOC', 'SMB_TL'];
+        let productCount = 0;
+
+        function navigateToSetup() {
+            document.getElementById('landingPage').style.display = 'none';
+            document.getElementById('mainApp').style.display = 'block';
+        }
+
+        function backToLanding() {
+            document.getElementById('mainApp').style.display = 'none';
+            document.getElementById('landingPage').style.display = 'block';
+        }
+
+        function showTab(tabName) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.content').forEach(c => c.classList.remove('active'));
+            event.target.classList.add('active');
+            document.getElementById(tabName).classList.add('active');
+        }
+
+        // Load params from backend on page load
+        async function loadParamsOnInit() {
+            try {
+                const response = await fetch('/api/load-params');
+                const result = await response.json();
+                
+                if (result.params) {
+                    // Set form values
+                    if (result.params.destination_repo_github_url) {
+                        document.getElementById('destRepo').value = result.params.destination_repo_github_url;
+                    }
+                    if (result.params['tenant-domain']) {
+                        document.getElementById('tenantDomain').value = result.params['tenant-domain'];
+                    }
+                    if (result.params['tenant-id']) {
+                        document.getElementById('tenantId').value = result.params['tenant-id'];
+                    }
+                    if (result.params.template_vars_tag) {
+                        document.getElementById('templateTag').value = result.params.template_vars_tag;
+                    }
+                    if (result.params.pr_title) {
+                        document.getElementById('prTitle').value = result.params.pr_title;
+                    }
+                    if (result.params.branchName) {
+                        document.getElementById('branchName').value = result.params.branchName;
+                    }
+                    
+                    // Load products
+                    if (result.products && result.products.length > 0) {
+                        result.products.forEach(product => {
+                            addProduct(product.type, product.name);
+                        });
+                    }
+                }
+            } catch (error) {
+                console.error('Failed to load params:', error);
+            }
+        }
+
+        // Call on page load
+        window.addEventListener('DOMContentLoaded', loadParamsOnInit);
+
+        function addProduct(type = null, name = null) {
+            productCount++;
+            const container = document.getElementById('productsContainer');
+            const row = document.createElement('div');
+            row.className = 'product-row';
+            row.id = `product-${productCount}`;
+            row.innerHTML = `
+                <select id="type-${productCount}">
+                    ${productTypes.map(t => `<option value="${t}" ${t === type ? 'selected' : ''}>${t}</option>`).join('')}
+                </select>
+                <input type="text" id="name-${productCount}" placeholder="Product Name" value="${name || ''}">
+                <button class="remove-btn" onclick="removeProduct(${productCount})">×</button>
+            `;
+            container.appendChild(row);
+        }
+
+        function removeProduct(id) {
+            document.getElementById(`product-${id}`).remove();
+        }
+
+        function validateForm() {
+            const destRepo = document.getElementById('destRepo').value.trim();
+            const tenantDomain = document.getElementById('tenantDomain').value.trim();
+            const tenantId = document.getElementById('tenantId').value.trim();
+            const templateTag = document.getElementById('templateTag').value.trim();
+            const prTitle = document.getElementById('prTitle').value.trim();
+            const branchName = document.getElementById('branchName').value.trim();
+            
+            if (!destRepo) {
+                alert('⚠️ Destination Repository URL is required!');
+                return false;
+            }
+            if (!tenantDomain) {
+                alert('⚠️ Tenant Domain is required!');
+                return false;
+            }
+            if (!tenantId) {
+                alert('⚠️ Tenant ID is required!');
+                return false;
+            }
+            if (!templateTag) {
+                alert('⚠️ Template Vars Tag is required!');
+                return false;
+            }
+            if (!prTitle) {
+                alert('⚠️ Pull Request Title is required!');
+                return false;
+            }
+            if (!branchName) {
+                alert('⚠️ Branch Name is required!');
+                return false;
+            }
+            
+            // Check if at least one product is added
+            const products = [];
+            document.querySelectorAll('.product-row').forEach(row => {
+                const id = row.id.split('-')[1];
+                const name = document.getElementById(`name-${id}`).value.trim();
+                if (name) {
+                    products.push(name);
+                }
+            });
+            
+            if (products.length === 0) {
+                alert('⚠️ At least one product is required!');
+                return false;
+            }
+            
+            return true;
+        }
+
+        async function runSetup() {
+            // Validate form before proceeding
+            if (!validateForm()) {
+                return;
+            }
+            
+            const output = document.getElementById('setupOutput');
+            const consoleLogHeader = document.getElementById('consoleLogHeader');
+            const progressContainer = document.getElementById('progressContainer');
+            const progressFill = document.getElementById('progressFill');
+            const progressText = document.getElementById('progressText');
+            
+            output.style.display = 'none';
+            consoleLogHeader.style.display = 'none';
+            progressContainer.style.display = 'block';
+            
+            // Scroll to progress bar
+            progressContainer.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            
+            // Simulate progress steps
+            const steps = [
+                { percent: 10, text: 'Saving configuration...' },
+                { percent: 20, text: 'Cloning destination repository...' },
+                { percent: 35, text: 'Creating feature branch...' },
+                { percent: 45, text: 'Cloning static files repository...' },
+                { percent: 55, text: 'Copying baseline files...' },
+                { percent: 65, text: 'Replacing tenant placeholders...' },
+                { percent: 75, text: 'Creating product directories...' },
+                { percent: 85, text: 'Copying template variables...' },
+                { percent: 95, text: 'Committing and pushing changes...' },
+                { percent: 99, text: 'Creating pull request...' }
+            ];
+            
+            let currentStep = 0;
+            const updateProgress = () => {
+                if (currentStep < steps.length) {
+                    const step = steps[currentStep];
+                    progressFill.style.width = step.percent + '%';
+                    progressFill.textContent = step.percent + '%';
+                    progressText.textContent = step.text;
+                    currentStep++;
+                }
+            };
+            
+            const data = collectFormData();
+            
+            try {
+                updateProgress(); // Step 1
+                await fetch('/api/save-params', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify(data)
+                });
+                
+                // Start progress animation
+                const progressInterval = setInterval(updateProgress, 2000);
+                
+                const response = await fetch('/api/run-setup', {method: 'POST'});
+                const result = await response.json();
+                
+                clearInterval(progressInterval);
+                
+                // Complete progress
+                progressFill.style.width = '100%';
+                progressFill.textContent = '100%';
+                progressText.textContent = 'Completed!';
+                
+                // Show output after a brief delay
+                setTimeout(() => {
+                    progressContainer.style.display = 'none';
+                    consoleLogHeader.style.display = 'block';
+                    output.style.display = 'block';
+                    
+                    // Scroll to console log
+                    consoleLogHeader.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    
+                    if (result.error) {
+                        output.innerHTML = `❌ Error: ${result.error}`;
+                        alert('❌ Setup failed! Please check the logs for details.');
+                    } else {
+                        output.innerHTML = result.stdout;
+                        if (result.returncode !== 0 && result.stderr) {
+                            output.innerHTML += '\n\n❌ Errors:\n' + result.stderr;
+                            alert('❌ Setup completed with errors! Please check the logs for details.');
+                        } else {
+                            alert('✅ Process completed successfully! Please check logs for details.');
+                        }
+                    }
+                }, 1000);
+            } catch (error) {
+                progressContainer.style.display = 'none';
+                consoleLogHeader.style.display = 'block';
+                output.style.display = 'block';
+                output.innerHTML = `❌ Error: ${error.message}`;
+                alert('❌ Setup failed! Please check the logs for details.');
+            }
+        }
+
+        async function runValidation(type) {
+            const output = document.getElementById('validateOutput');
+            output.style.display = 'block';
+            output.innerHTML = `⏳ Running validation...\n\n`;
+            
+            try {
+                if (type === 'all') {
+                    for (const t of ['template_vars', 'env_files']) {
+                        const response = await fetch(`/api/validate/${t}`, {method: 'POST'});
+                        const result = await response.json();
+                        output.innerHTML += `\n=== ${t} ===\n${result.stdout}\n`;
+                    }
+                } else {
+                    const response = await fetch(`/api/validate/${type}`, {method: 'POST'});
+                    const result = await response.json();
+                    output.innerHTML += result.stdout;
+                    // Only show stderr if there's an actual error
+                    if (result.returncode !== 0 && result.stderr) {
+                        output.innerHTML += '\n\n❌ Errors:\n' + result.stderr;
+                    }
+                }
+            } catch (error) {
+                output.innerHTML += `❌ Error: ${error.message}`;
+            }
+        }
+
+        async function showSummary() {
+            const output = document.getElementById('summaryOutput');
+            output.style.display = 'block';
+            output.innerHTML = '⏳ Loading product summary...\n\n';
+            
+            try {
+                const response = await fetch('/api/validate/summary', {method: 'POST'});
+                const result = await response.json();
+                output.innerHTML = result.stdout;
+                // Only show stderr if there's an actual error
+                if (result.returncode !== 0 && result.stderr) {
+                    output.innerHTML += '\n\n❌ Errors:\n' + result.stderr;
+                }
+            } catch (error) {
+                output.innerHTML += `❌ Error: ${error.message}`;
+            }
+        }
+
+        async function loadReadme() {
+            const content = document.getElementById('docsContent');
+            content.style.display = 'block';
+            content.innerHTML = '⏳ Loading documentation...';
+            
+            try {
+                const response = await fetch('/api/readme');
+                const result = await response.json();
+                
+                if (result.error) {
+                    content.innerHTML = `❌ Error: ${result.error}`;
+                } else {
+                    // Convert markdown to HTML (basic conversion)
+                    let html = result.content
+                        .replace(/&/g, '&amp;')
+                        .replace(/</g, '&lt;')
+                        .replace(/>/g, '&gt;')
+                        .replace(/^### (.+)$/gm, '<h3 style="margin-top: 20px; color: #0369a1;">$1</h3>')
+                        .replace(/^## (.+)$/gm, '<h2 style="margin-top: 25px; color: #0369a1;">$1</h2>')
+                        .replace(/^# (.+)$/gm, '<h1 style="margin-top: 30px; color: #0369a1;">$1</h1>')
+                        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                        .replace(/`([^`]+)`/g, '<code style="background: #e9ecef; padding: 2px 6px; border-radius: 3px; font-family: monospace;">$1</code>')
+                        .replace(/^```([\s\S]*?)```$/gm, '<pre style="background: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto;"><code>$1</code></pre>')
+                        .replace(/^- (.+)$/gm, '<li style="margin-left: 20px;">$1</li>')
+                        .replace(/\n\n/g, '<br><br>');
+                    
+                    content.innerHTML = html;
+                }
+            } catch (error) {
+                content.innerHTML = `❌ Error: ${error.message}`;
+            }
+        }
+
+        function collectFormData() {
+            const products = [];
+            document.querySelectorAll('.product-row').forEach(row => {
+                const id = row.id.split('-')[1];
+                const type = document.getElementById(`type-${id}`).value;
+                const name = document.getElementById(`name-${id}`).value;
+                if (name) {
+                    products.push({type, name});
+                }
+            });
+            
+            return {
+                destRepo: document.getElementById('destRepo').value,
+                tenantDomain: document.getElementById('tenantDomain').value,
+                tenantId: document.getElementById('tenantId').value,
+                templateTag: document.getElementById('templateTag').value,
+                prTitle: document.getElementById('prTitle').value,
+                branchName: document.getElementById('branchName').value,
+                products
+            };
+        }
+
+        function addProduct(type = null, name = null) {
+            productCount++;
+            const container = document.getElementById('productsContainer');
+            const row = document.createElement('div');
+            row.className = 'product-row';
+            row.id = `product-${productCount}`;
+            row.innerHTML = `
+                <select id="type-${productCount}">
+                    ${productTypes.map(t => `<option value="${t}" ${t === type ? 'selected' : ''}>${t}</option>`).join('')}
+                </select>
+                <input type="text" id="name-${productCount}" placeholder="Product Name" value="${name || ''}">
+                <button class="remove-btn" onclick="removeProduct(${productCount})">×</button>
+            `;
+            container.appendChild(row);
+        }
+    </script>
+</body>
+</html>

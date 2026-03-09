@@ -81,18 +81,61 @@ def compare_template_vars(product_path, source_path, product_name):
     }
 
 if __name__ == "__main__":
-    script_dir = Path(__file__).parent
-    params_file = script_dir / "params.txt"
+    script_dir = Path(__file__).parent.parent
+    params_file = script_dir / "params" / "params.txt"
     
     if not params_file.exists():
         print(f"❌ Parameters file not found: {params_file}")
         sys.exit(1)
     
     params = load_params(params_file)
-    working_dir = Path(params.get("workingDirectory", "workdir")).expanduser().absolute()
     
-    product_dir = working_dir / "destination" / "product"
-    template_vars_repo = working_dir / "template_vars"
+    # Create validation directory
+    validation_dir = script_dir / "validation"
+    if validation_dir.exists():
+        print(f"Cleaning existing validation directory...")
+        import shutil
+        shutil.rmtree(validation_dir)
+    validation_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Clone the remote branch for validation
+    dest_repo_url = params.get('destination_repo_github_url')
+    branch_name = params.get('branchName', 'master')
+    
+    if not dest_repo_url:
+        print("❌ destination_repo_github_url not found in params.txt")
+        sys.exit(1)
+    
+    print(f"📥 Cloning remote branch '{branch_name}' from {dest_repo_url}...")
+    dest_repo = validation_dir / "destination"
+    
+    import subprocess
+    try:
+        subprocess.run(["git", "clone", "-b", branch_name, dest_repo_url, str(dest_repo)], check=True, capture_output=True)
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Failed to clone branch '{branch_name}': {e.stderr.decode()}")
+        sys.exit(1)
+    
+    product_dir = dest_repo / "product"
+    
+    # Clone template vars repo for comparison
+    template_vars_tag = params.get("template_vars_tag")
+    template_vars_url = params.get("template_vars_github_url")
+    
+    if not template_vars_url:
+        print("❌ template_vars_github_url not found in params.txt")
+        sys.exit(1)
+    
+    print(f"📥 Cloning template_vars repo at tag '{template_vars_tag}'...")
+    template_vars_repo = validation_dir / "template_vars"
+    
+    try:
+        subprocess.run(["git", "clone", template_vars_url, str(template_vars_repo)], check=True, capture_output=True)
+        if template_vars_tag:
+            subprocess.run(["git", "checkout", template_vars_tag], cwd=str(template_vars_repo), check=True, capture_output=True)
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Failed to clone template_vars: {e.stderr.decode()}")
+        sys.exit(1)
     
     if not product_dir.exists():
         print(f"❌ Product directory not found: {product_dir}")
